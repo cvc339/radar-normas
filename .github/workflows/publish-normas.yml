@@ -1,0 +1,43 @@
+name: Publicar normas.json
+
+# Monta normas.json (infralegal MG via ACAM + leis/decretos do ALMG) e commita
+# neste repo publico, para o briefing diario ler via raw.githubusercontent.
+# Roda 07:30 BRT (apos a coleta do ACAM, 07:00) e 09:30 BRT (rede de seguranca).
+#
+# Pre-requisito: secret RADAR_READ_KEY (mesmo valor da variavel no Railway do ACAM).
+
+on:
+  schedule:
+    - cron: '30 10 * * *'   # 07:30 BRT
+    - cron: '30 12 * * *'   # 09:30 BRT (segunda passada)
+  workflow_dispatch:
+
+concurrency:
+  group: publicar-normas
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Montar normas.json
+        env:
+          RADAR_READ_KEY: ${{ secrets.RADAR_READ_KEY }}
+        run: node scripts/build-normas.mjs
+      - name: Commitar se houve mudanca
+        run: |
+          git config user.name  "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add normas.json state.json
+          if git diff --cached --quiet; then
+            echo "Sem mudancas."
+          else
+            git commit -m "chore: atualiza normas.json ($(date -u +%FT%TZ))"
+            git push
+          fi
