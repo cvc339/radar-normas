@@ -1,6 +1,27 @@
 {
-  "gerado_em": "2026-07-24T13:54:46.411Z",
+  "gerado_em": "2026-07-25T12:32:57.444Z",
   "janela_dias": 5,
-  "total": 0,
-  "itens": []
+  "total": 2,
+  "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Cria o Conselho Consultivo do Refúgio de Vida Silvestre do Soldadinho-do-Araripe, no estado do Ceará (processo ICMBio nº 02124.002141/2026-33).",
+      "data": "2026-07-20",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=20/07/2026&jornal=515&pagina=58"
+    },
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Aprova o Plano de Pesquisa do Parque Nacional da Serra da Canastra (processo ICMBio nº 02128.002688/2025-18).",
+      "data": "2026-07-17",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=17/07/2026&jornal=515&pagina=137"
+    }
+  ]
 }
