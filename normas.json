@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-07-29T14:43:17.374Z",
+  "gerado_em": "2026-07-30T12:13:03.653Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 3,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Aprova o Plano de Área da Bacia de Campos (PA-BC) para o combate à poluição por óleo em águas sob jurisdição nacional.",
+      "data": "2026-07-29",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=29/07/2026&jornal=515&pagina=59"
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
