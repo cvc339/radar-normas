@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-07-30T14:43:06.624Z",
+  "gerado_em": "2026-07-31T12:27:30.412Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 4,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEF",
+      "tipo": "Portaria",
+      "numero": "56",
+      "ementa": "Homologa o plano de manejo da unidade de conservação Parque Estadual de Botumirim, aprovado pela Câmara de Proteção à Biodiversidade e de Áreas Protegidas - CPB/COPAM.",
+      "data": "2026-07-30",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222713&marc="
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
