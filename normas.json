@@ -1,8 +1,28 @@
 {
-  "gerado_em": "2026-08-01T12:31:39.243Z",
+  "gerado_em": "2026-08-01T14:55:39.689Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 5,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração",
+      "tipo": "Resolução",
+      "numero": null,
+      "ementa": "Altera a Resolução ANM nº 208, de 12 de junho de 2025, e a Consolidação Normativa aprovada na forma do Anexo da Portaria nº 155, de 12 de maio de 2016, que passa a vigorar acrescida dos artigos 219-A e 219-B..",
+      "data": "2026-07-31",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=31/07/2026&jornal=515&pagina=71"
+    },
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Aprova o Plano de Manejo do Parque Nacional do Monte Roraima (processo ICMBio nº 02120.010379/2016-09).",
+      "data": "2026-07-31",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=31/07/2026&jornal=515&pagina=69"
+    },
     {
       "origem": "ACAM",
       "fonte": "MG",
