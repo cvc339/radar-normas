@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-07-31T15:00:05.693Z",
+  "gerado_em": "2026-08-01T12:31:39.243Z",
   "janela_dias": 5,
-  "total": 4,
+  "total": 3,
   "itens": [
     {
       "origem": "ACAM",
@@ -32,16 +32,6 @@
       "ementa": "Aprova a revisão do Plano de Manejo da Área de Proteção Ambiental Fernando de Noronha - Rocas - São Pedro e São Paulo (processo ICMBio nº 02070.010493/2023-92).",
       "data": "2026-07-28",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=28/07/2026&jornal=515&pagina=47"
-    },
-    {
-      "origem": "ALMG",
-      "fonte": "ALMG",
-      "orgao": "Legislativo",
-      "tipo": "LEI",
-      "numero": "26012",
-      "ementa": "Altera a Lei nº 8.193, de 13 de maio de 1982, que dispõe sobre o apoio e a assistência à pessoa com deficiência, e dá outras providências.",
-      "data": "2026-07-28",
-      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26012/2026/"
     }
   ]
 }
