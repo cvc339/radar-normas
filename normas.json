@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-02T14:57:22.559Z",
+  "gerado_em": "2026-08-03T14:14:01.336Z",
   "janela_dias": 5,
-  "total": 4,
+  "total": 3,
   "itens": [
     {
       "origem": "ACAM",
@@ -32,16 +32,6 @@
       "ementa": "Homologa o plano de manejo da unidade de conservação Parque Estadual de Botumirim, aprovado pela Câmara de Proteção à Biodiversidade e de Áreas Protegidas - CPB/COPAM.",
       "data": "2026-07-30",
       "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222713&marc="
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
-      "tipo": "Portaria",
-      "numero": null,
-      "ementa": "Aprova o Plano de Área da Bacia de Campos (PA-BC) para o combate à poluição por óleo em águas sob jurisdição nacional.",
-      "data": "2026-07-29",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=29/07/2026&jornal=515&pagina=59"
     }
   ]
 }
