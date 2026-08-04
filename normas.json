@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-03T15:26:14.067Z",
+  "gerado_em": "2026-08-04T12:26:29.915Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 2,
   "itens": [
     {
       "origem": "ACAM",
@@ -22,16 +22,6 @@
       "ementa": "Aprova o Plano de Manejo do Parque Nacional do Monte Roraima (processo ICMBio nº 02120.010379/2016-09).",
       "data": "2026-07-31",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=31/07/2026&jornal=515&pagina=69"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "IEF",
-      "tipo": "Portaria",
-      "numero": "56",
-      "ementa": "Homologa o plano de manejo da unidade de conservação Parque Estadual de Botumirim, aprovado pela Câmara de Proteção à Biodiversidade e de Áreas Protegidas - CPB/COPAM.",
-      "data": "2026-07-30",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222713&marc="
     }
   ]
 }
