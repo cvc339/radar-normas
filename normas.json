@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-08-05T14:55:58.081Z",
+  "gerado_em": "2026-08-06T13:15:00.797Z",
   "janela_dias": 5,
   "total": 2,
   "itens": [
@@ -14,14 +14,14 @@
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=04/08/2026&jornal=515&pagina=66"
     },
     {
-      "origem": "ALMG",
-      "fonte": "ALMG",
-      "orgao": "Legislativo",
-      "tipo": "LEI",
-      "numero": "26026",
-      "ementa": "Institui o Polo da Bioeconomia do Médio Piracicaba.",
-      "data": "2026-08-04",
-      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26026/2026/"
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "SEMAD",
+      "tipo": "Resolução Conjunta",
+      "numero": "3420",
+      "ementa": "Institui a Política de Gestão de Riscos no âmbito do Sistema Estadual de Meio Ambiente e Recursos Hídricos e dá outras providências.",
+      "data": "2026-07-30",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222755&marc="
     }
   ]
 }
