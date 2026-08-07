@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-08-07T11:22:59.435Z",
+  "gerado_em": "2026-08-07T13:50:31.309Z",
   "janela_dias": 5,
-  "total": 5,
+  "total": 6,
   "itens": [
+    {
+      "origem": "ALMG",
+      "fonte": "ALMG",
+      "orgao": "Legislativo",
+      "tipo": "LEI",
+      "numero": "26036",
+      "ementa": "Dispõe sobre a utilização de drogas ilícitas e componentes explosivos apreendidos, segmentos amputados do corpo humano e cadáveres para fins de adestramento de cães farejadores no Estado.",
+      "data": "2026-08-06",
+      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26036/2026/"
+    },
     {
       "origem": "ACAM",
       "fonte": "MG",
