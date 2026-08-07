@@ -1,8 +1,28 @@
 {
-  "gerado_em": "2026-08-06T14:54:30.364Z",
+  "gerado_em": "2026-08-07T11:22:59.435Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 5,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEF",
+      "tipo": "Portaria",
+      "numero": "60",
+      "ementa": "Institui a Comissão de Gestão da Informação no âmbito do Instituto Estadual de Florestas.",
+      "data": "2026-08-04",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222766&marc="
+    },
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEF",
+      "tipo": "Portaria",
+      "numero": "58",
+      "ementa": "Dispõe sobre a recondução do Conselho Consultivo do Parque Estadual da Serra do Brigadeiro, instituído pela Portaria IEF nº 63, de 08 de outubro de 2024.",
+      "data": "2026-08-04",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222764&marc="
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
