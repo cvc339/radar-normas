@@ -1,27 +1,27 @@
 {
-  "gerado_em": "2026-08-07T13:50:31.309Z",
+  "gerado_em": "2026-08-08T11:49:46.103Z",
   "janela_dias": 5,
   "total": 6,
   "itens": [
     {
-      "origem": "ALMG",
-      "fonte": "ALMG",
-      "orgao": "Legislativo",
-      "tipo": "LEI",
-      "numero": "26036",
-      "ementa": "Dispõe sobre a utilização de drogas ilícitas e componentes explosivos apreendidos, segmentos amputados do corpo humano e cadáveres para fins de adestramento de cães farejadores no Estado.",
-      "data": "2026-08-06",
-      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26036/2026/"
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração/Diretoria 2",
+      "tipo": "Resolução",
+      "numero": null,
+      "ementa": "Dispõe sobre a prorrogação de prazos processuais em razão de indisponibilidade dos Sistemas Protocolo Digital, Dados Cadastrais e Dados Minerários da Agência Nacional de Mineração no período de 02 de abril a 13 de julho de 2026.",
+      "data": "2026-08-07",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/08/2026&jornal=515&pagina=108"
     },
     {
       "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "IEF",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
       "tipo": "Portaria",
-      "numero": "60",
-      "ementa": "Institui a Comissão de Gestão da Informação no âmbito do Instituto Estadual de Florestas.",
-      "data": "2026-08-04",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222766&marc="
+      "numero": null,
+      "ementa": "Aprova o Plano de Manejo da Reserva Extrativista Chapada Limpa, localizada no estado do Maranhão (processo ICMBio nº 02070.001392/2008-91).",
+      "data": "2026-08-07",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/08/2026&jornal=515&pagina=105"
     },
     {
       "origem": "ACAM",
@@ -35,6 +35,16 @@
     },
     {
       "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEF",
+      "tipo": "Portaria",
+      "numero": "60",
+      "ementa": "Institui a Comissão de Gestão da Informação no âmbito do Instituto Estadual de Florestas.",
+      "data": "2026-08-04",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222766&marc="
+    },
+    {
+      "origem": "ACAM",
       "fonte": "DOU",
       "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração",
       "tipo": "Resolução",
@@ -42,16 +52,6 @@
       "ementa": "Altera o art. 87 da Resolução ANM nº 220, de 16 de outubro de 2025, para estabelecer o prazo de entrada em vigor do § 1º do art. 7º.",
       "data": "2026-08-04",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=04/08/2026&jornal=515&pagina=66"
-    },
-    {
-      "origem": "ALMG",
-      "fonte": "ALMG",
-      "orgao": "Legislativo",
-      "tipo": "LEI",
-      "numero": "26026",
-      "ementa": "Institui o Polo da Bioeconomia do Médio Piracicaba.",
-      "data": "2026-08-04",
-      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26026/2026/"
     },
     {
       "origem": "ACAM",
