@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-10T12:19:28.263Z",
+  "gerado_em": "2026-08-10T14:45:01.250Z",
   "janela_dias": 5,
-  "total": 5,
+  "total": 4,
   "itens": [
     {
       "origem": "ACAM",
@@ -42,16 +42,6 @@
       "ementa": "Institui a Comissão de Gestão da Informação no âmbito do Instituto Estadual de Florestas.",
       "data": "2026-08-04",
       "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222766&marc="
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "SEMAD",
-      "tipo": "Resolução Conjunta",
-      "numero": "3420",
-      "ementa": "Institui a Política de Gestão de Riscos no âmbito do Sistema Estadual de Meio Ambiente e Recursos Hídricos e dá outras providências.",
-      "data": "2026-07-30",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222755&marc="
     }
   ]
 }
