@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-10T14:45:01.250Z",
+  "gerado_em": "2026-08-11T11:20:55.646Z",
   "janela_dias": 5,
-  "total": 4,
+  "total": 2,
   "itens": [
     {
       "origem": "ACAM",
@@ -22,26 +22,6 @@
       "ementa": "Aprova o Plano de Manejo da Reserva Extrativista Chapada Limpa, localizada no estado do Maranhão (processo ICMBio nº 02070.001392/2008-91).",
       "data": "2026-08-07",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/08/2026&jornal=515&pagina=105"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "IEF",
-      "tipo": "Portaria",
-      "numero": "58",
-      "ementa": "Dispõe sobre a recondução do Conselho Consultivo do Parque Estadual da Serra do Brigadeiro, instituído pela Portaria IEF nº 63, de 08 de outubro de 2024.",
-      "data": "2026-08-04",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222764&marc="
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "IEF",
-      "tipo": "Portaria",
-      "numero": "60",
-      "ementa": "Institui a Comissão de Gestão da Informação no âmbito do Instituto Estadual de Florestas.",
-      "data": "2026-08-04",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222766&marc="
     }
   ]
 }
