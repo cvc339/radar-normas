@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-08-11T11:20:55.646Z",
+  "gerado_em": "2026-08-11T13:55:34.620Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 3,
   "itens": [
+    {
+      "origem": "ALMG",
+      "fonte": "ALMG",
+      "orgao": "Legislativo",
+      "tipo": "LEI",
+      "numero": "26053",
+      "ementa": "Altera a Lei nº 15.979, de 13 de janeiro de 2006, que cria a Estação Ecológica do Cercadinho e dá outras providências.",
+      "data": "2026-08-10",
+      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26053/2026/"
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
