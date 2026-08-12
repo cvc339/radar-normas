@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-11T13:55:34.620Z",
+  "gerado_em": "2026-08-12T11:23:33.687Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 1,
   "itens": [
     {
       "origem": "ALMG",
@@ -12,26 +12,6 @@
       "ementa": "Altera a Lei nº 15.979, de 13 de janeiro de 2006, que cria a Estação Ecológica do Cercadinho e dá outras providências.",
       "data": "2026-08-10",
       "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26053/2026/"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração/Diretoria 2",
-      "tipo": "Resolução",
-      "numero": null,
-      "ementa": "Dispõe sobre a prorrogação de prazos processuais em razão de indisponibilidade dos Sistemas Protocolo Digital, Dados Cadastrais e Dados Minerários da Agência Nacional de Mineração no período de 02 de abril a 13 de julho de 2026.",
-      "data": "2026-08-07",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/08/2026&jornal=515&pagina=108"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
-      "tipo": "Portaria",
-      "numero": null,
-      "ementa": "Aprova o Plano de Manejo da Reserva Extrativista Chapada Limpa, localizada no estado do Maranhão (processo ICMBio nº 02070.001392/2008-91).",
-      "data": "2026-08-07",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/08/2026&jornal=515&pagina=105"
     }
   ]
 }
