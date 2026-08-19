@@ -1,6 +1,17 @@
 {
-  "gerado_em": "2026-08-19T10:56:03.944Z",
+  "gerado_em": "2026-08-19T13:25:53.977Z",
   "janela_dias": 5,
-  "total": 0,
-  "itens": []
+  "total": 1,
+  "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Altera a Portaria nº 592, de 15 de junho de 2018, que instituiu o Núcleo de Gestão Integrada - NGI ICMBio Juazeiro, no âmbito do Instituto Chico Mendes de Conservação da Biodiversidade - ICMBio, no estado da Bahia, e dá outras providências (processo ICMBio nº 02070.004349/2018-50).",
+      "data": "2026-08-18",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=18/08/2026&jornal=515&pagina=97"
+    }
+  ]
 }
