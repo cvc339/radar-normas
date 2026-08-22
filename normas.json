@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-08-21T13:27:26.147Z",
+  "gerado_em": "2026-08-22T11:38:34.974Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 3,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Gabinete do Ministro",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Realoca Função Comissionada Executiva no âmbito do Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Meio Ambiente e Mudança do Clima.",
+      "data": "2026-08-21",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/08/2026&jornal=515&pagina=54"
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
