@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-23T13:59:18.688Z",
+  "gerado_em": "2026-08-24T11:02:50.818Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 1,
   "itens": [
     {
       "origem": "ACAM",
@@ -12,16 +12,6 @@
       "ementa": "Realoca Função Comissionada Executiva no âmbito do Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Meio Ambiente e Mudança do Clima.",
       "data": "2026-08-21",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/08/2026&jornal=515&pagina=54"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
-      "tipo": "Portaria",
-      "numero": null,
-      "ementa": "Cria o Conselho Consultivo Integrado da Área de Proteção Ambiental da Serra da Mantiqueira e da Floresta Nacional de Passa Quatro (processo ICMBio nº 02126.001903/2026-64).",
-      "data": "2026-08-19",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=19/08/2026&jornal=515&pagina=54"
     }
   ]
 }
