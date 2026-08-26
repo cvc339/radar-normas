@@ -1,17 +1,17 @@
 {
-  "gerado_em": "2026-08-25T13:29:29.746Z",
+  "gerado_em": "2026-08-26T11:02:20.112Z",
   "janela_dias": 5,
   "total": 1,
   "itens": [
     {
       "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Gabinete do Ministro",
-      "tipo": "Portaria",
-      "numero": null,
-      "ementa": "Realoca Função Comissionada Executiva no âmbito do Quadro Demonstrativo dos Cargos em Comissão e das Funções de Confiança do Ministério do Meio Ambiente e Mudança do Clima.",
-      "data": "2026-08-21",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/08/2026&jornal=515&pagina=54"
+      "fonte": "MG",
+      "orgao": "SEMAD",
+      "tipo": "Resolução Conjunta",
+      "numero": "3423",
+      "ementa": "Altera a Resolução Conjunta Semad/Feam/IEF/Igam nº 3.063, de 29 de março de 2021, que dispõe sobre a classificação de risco das atividades econômicas para fins de controle ambiental, exercido pelo Sistema Estadual de Meio Ambiente e Recursos Hídricos.",
+      "data": "2026-08-20",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222907&marc="
     }
   ]
 }
