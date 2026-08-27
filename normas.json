@@ -1,8 +1,28 @@
 {
-  "gerado_em": "2026-08-26T13:35:27.254Z",
+  "gerado_em": "2026-08-27T20:41:47.188Z",
   "janela_dias": 5,
-  "total": 1,
+  "total": 3,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEF",
+      "tipo": "Portaria",
+      "numero": "69",
+      "ementa": "Designa Comissão de Avaliação do Termo de Parceria nº 55/2025 celebrado entre este INSTITUTO ESTADUAL DE FLORESTAS – IEF e INSTITUTO DE PESQUISA WAITA, qualificada como OSCIP nos termos da Lei 23.081/2018 designados pela Portaria IEF nº 75, de 14 de novembro de 2025 e dá outras providências.",
+      "data": "2026-08-25",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222949&marc="
+    },
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEF",
+      "tipo": "Portaria",
+      "numero": "70",
+      "ementa": "Designa Comissão de Avaliação do Termo de Parceria nº 56/2025 celebrado entre este INSTITUTO ESTADUAL DE FLORESTAS – IEF e INSTITUTO DE PESQUISA WAITA, qualificada como OSCIP nos termos da Lei nº 23.081/2018 e dá outras providências.",
+      "data": "2026-08-25",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222950&marc="
+    },
     {
       "origem": "ACAM",
       "fonte": "MG",
