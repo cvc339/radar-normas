@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-08-29T17:38:50.637Z",
+  "gerado_em": "2026-08-30T15:44:10.171Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 2,
   "itens": [
     {
       "origem": "ACAM",
@@ -22,16 +22,6 @@
       "ementa": "Designa Comissão de Avaliação do Termo de Parceria nº 56/2025 celebrado entre este INSTITUTO ESTADUAL DE FLORESTAS – IEF e INSTITUTO DE PESQUISA WAITA, qualificada como OSCIP nos termos da Lei nº 23.081/2018 e dá outras providências.",
       "data": "2026-08-25",
       "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222950&marc="
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "SEMAD",
-      "tipo": "Resolução Conjunta",
-      "numero": "3423",
-      "ementa": "Altera a Resolução Conjunta Semad/Feam/IEF/Igam nº 3.063, de 29 de março de 2021, que dispõe sobre a classificação de risco das atividades econômicas para fins de controle ambiental, exercido pelo Sistema Estadual de Meio Ambiente e Recursos Hídricos.",
-      "data": "2026-08-20",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=222907&marc="
     }
   ]
 }
