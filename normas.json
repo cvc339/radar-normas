@@ -1,6 +1,17 @@
 {
-  "gerado_em": "2026-09-01T16:50:36.526Z",
+  "gerado_em": "2026-09-02T14:38:30.227Z",
   "janela_dias": 5,
-  "total": 0,
-  "itens": []
+  "total": 1,
+  "itens": [
+    {
+      "origem": "ALMG",
+      "fonte": "ALMG",
+      "orgao": "Legislativo",
+      "tipo": "LEI",
+      "numero": "26054",
+      "ementa": "Declara de utilidade pública o Instituto de Pesquisa e Intervenção em Projetos de Gênero – CDP, com sede no Município de Belo Horizonte.",
+      "data": "2026-09-01",
+      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26054/2026/"
+    }
+  ]
 }
