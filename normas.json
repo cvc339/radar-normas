@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-09-03T14:41:53.983Z",
+  "gerado_em": "2026-09-03T17:25:36.111Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 1,
   "itens": [
     {
       "origem": "ACAM",
@@ -12,16 +12,6 @@
       "ementa": "Cria a Reserva Particular do Patrimônio Natural - RPPN Cerrado Protegido (processo ICMBio n° 02070.001937/2025-61).",
       "data": "2026-09-02",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=02/09/2026&jornal=515&pagina=55"
-    },
-    {
-      "origem": "ALMG",
-      "fonte": "ALMG",
-      "orgao": "Legislativo",
-      "tipo": "LEI",
-      "numero": "26054",
-      "ementa": "Declara de utilidade pública o Instituto de Pesquisa e Intervenção em Projetos de Gênero – CDP, com sede no Município de Belo Horizonte.",
-      "data": "2026-09-01",
-      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/26054/2026/"
     }
   ]
 }
