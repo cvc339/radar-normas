@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-02T16:47:41.817Z",
+  "gerado_em": "2026-09-03T14:41:53.983Z",
   "janela_dias": 5,
-  "total": 1,
+  "total": 2,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Cria a Reserva Particular do Patrimônio Natural - RPPN Cerrado Protegido (processo ICMBio n° 02070.001937/2025-61).",
+      "data": "2026-09-02",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=02/09/2026&jornal=515&pagina=55"
+    },
     {
       "origem": "ALMG",
       "fonte": "ALMG",
