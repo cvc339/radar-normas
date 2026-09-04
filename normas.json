@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-03T17:25:36.111Z",
+  "gerado_em": "2026-09-04T15:17:39.034Z",
   "janela_dias": 5,
-  "total": 1,
+  "total": 2,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Institui, no âmbito do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), Comitê Técnico de instância permanente de diálogo e acompanhamento da integração dos Sistemas Estaduais ao Sistema Nacional de Controle da Origem dos Produtos Florestais (Sinaflor).",
+      "data": "2026-09-03",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=03/09/2026&jornal=515&pagina=58"
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
