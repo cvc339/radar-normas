@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-04T17:20:55.617Z",
+  "gerado_em": "2026-09-05T14:18:39.510Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 3,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Cria a Reserva Particular do Patrimônio Natural - RPPN SESC Iparana (processo ICMBio n° 02070.002209/2008-75).",
+      "data": "2026-09-04",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=04/09/2026&jornal=515&pagina=172"
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
