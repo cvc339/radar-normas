@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-09-06T16:27:57.010Z",
+  "gerado_em": "2026-09-07T15:59:39.272Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 2,
   "itens": [
     {
       "origem": "ACAM",
@@ -22,16 +22,6 @@
       "ementa": "Institui, no âmbito do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), Comitê Técnico de instância permanente de diálogo e acompanhamento da integração dos Sistemas Estaduais ao Sistema Nacional de Controle da Origem dos Produtos Florestais (Sinaflor).",
       "data": "2026-09-03",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=03/09/2026&jornal=515&pagina=58"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
-      "tipo": "Portaria",
-      "numero": null,
-      "ementa": "Cria a Reserva Particular do Patrimônio Natural - RPPN Cerrado Protegido (processo ICMBio n° 02070.001937/2025-61).",
-      "data": "2026-09-02",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=02/09/2026&jornal=515&pagina=55"
     }
   ]
 }
