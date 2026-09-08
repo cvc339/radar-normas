@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-07T17:51:41.921Z",
+  "gerado_em": "2026-09-08T14:43:14.466Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 3,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEPHA",
+      "tipo": "Portaria",
+      "numero": "36",
+      "ementa": "Institui no âmbito da Diretoria de Conservação e Restauração – DCR, o Núcleo de Avaliação de Impacto no Patrimônio Cultural – NAIPC, unidade responsável pelas atividades relacionadas à avaliação de impacto no patrimônio cultural, à gestão dos acordos firmados com condicionantes, medidas mitigadoras",
+      "data": "2026-09-04",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223040&marc="
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
@@ -15,13 +25,13 @@
     },
     {
       "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+      "fonte": "MG",
+      "orgao": "IEF",
       "tipo": "Portaria",
-      "numero": null,
-      "ementa": "Institui, no âmbito do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), Comitê Técnico de instância permanente de diálogo e acompanhamento da integração dos Sistemas Estaduais ao Sistema Nacional de Controle da Origem dos Produtos Florestais (Sinaflor).",
+      "numero": "71",
+      "ementa": "Dispõe sobre a recondução do Conselho Consultivo do Parque Estadual de Nova Baden, instituído pela Portaria IEF nº 53, de 05 de setembro de 2024.",
       "data": "2026-09-03",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=03/09/2026&jornal=515&pagina=58"
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223046&marc="
     }
   ]
 }
