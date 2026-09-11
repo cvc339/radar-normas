@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-10T16:36:40.537Z",
+  "gerado_em": "2026-09-11T14:33:54.244Z",
   "janela_dias": 5,
-  "total": 3,
+  "total": 4,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEF",
+      "tipo": "Portaria",
+      "numero": "75",
+      "ementa": "Institui a Comissão de Ética no âmbito do Instituto Estadual de Florestas.",
+      "data": "2026-09-10",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223089&marc="
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
