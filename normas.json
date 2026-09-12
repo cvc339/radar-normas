@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-12T14:29:45.521Z",
+  "gerado_em": "2026-09-12T16:33:39.355Z",
   "janela_dias": 5,
-  "total": 4,
+  "total": 3,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis/Diretoria de Planejamento, Administração e Logística",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Subdelega competência para assinar contratos de pessoal por tempo determinado para atuação no âmbito do Centro Nacional de Prevenção e Combate aos Incêndios Florestais - Prevfogo.",
+      "data": "2026-09-11",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=11/09/2026&jornal=515&pagina=141"
+    },
     {
       "origem": "ACAM",
       "fonte": "MG",
@@ -22,26 +32,6 @@
       "ementa": "Altera a Portaria Ibama nº 64, de 13 de abril de 2026, que autoriza o Centro Nacional de Prevenção e Combate aos Incêndios Florestais (Prevfogo) a contratar Brigadas Federais para a prevenção e combate aos incêndios florestais.",
       "data": "2026-09-08",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/09/2026&jornal=515&pagina=98"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "IEPHA",
-      "tipo": "Portaria",
-      "numero": "36",
-      "ementa": "Institui no âmbito da Diretoria de Conservação e Restauração – DCR, o Núcleo de Avaliação de Impacto no Patrimônio Cultural – NAIPC, unidade responsável pelas atividades relacionadas à avaliação de impacto no patrimônio cultural, à gestão dos acordos firmados com condicionantes, medidas mitigadoras",
-      "data": "2026-09-04",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223040&marc="
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "IEF",
-      "tipo": "Portaria",
-      "numero": "71",
-      "ementa": "Dispõe sobre a recondução do Conselho Consultivo do Parque Estadual de Nova Baden, instituído pela Portaria IEF nº 53, de 05 de setembro de 2024.",
-      "data": "2026-09-03",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223046&marc="
     }
   ]
 }
