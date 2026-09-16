@@ -1,6 +1,17 @@
 {
-  "gerado_em": "2026-09-16T15:07:51.007Z",
+  "gerado_em": "2026-09-16T17:13:47.115Z",
   "janela_dias": 5,
-  "total": 0,
-  "itens": []
+  "total": 1,
+  "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
+      "tipo": "Portaria",
+      "numero": null,
+      "ementa": "Aprova o Perfil da Família Beneficiária da Floresta Nacional de Carajás (processo ICMBio nº 02122.000214/2018-62).",
+      "data": "2026-09-15",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=15/09/2026&jornal=515&pagina=64"
+    }
+  ]
 }
