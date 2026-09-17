@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-16T17:13:47.115Z",
+  "gerado_em": "2026-09-17T15:11:44.787Z",
   "janela_dias": 5,
-  "total": 1,
+  "total": 2,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "MG",
+      "orgao": "IEPHA",
+      "tipo": "Portaria",
+      "numero": "38",
+      "ementa": "Aprova a Política de Inovação do Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais – IEPHA-MG",
+      "data": "2026-09-15",
+      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223151&marc="
+    },
     {
       "origem": "ACAM",
       "fonte": "DOU",
