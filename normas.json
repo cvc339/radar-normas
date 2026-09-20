@@ -1,7 +1,7 @@
 {
-  "gerado_em": "2026-09-20T15:07:06.538Z",
+  "gerado_em": "2026-09-20T17:11:38.961Z",
   "janela_dias": 5,
-  "total": 2,
+  "total": 1,
   "itens": [
     {
       "origem": "ACAM",
@@ -12,16 +12,6 @@
       "ementa": "Aprova a Política de Inovação do Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais – IEPHA-MG",
       "data": "2026-09-15",
       "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223151&marc="
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Chico Mendes de Conservação da Biodiversidade",
-      "tipo": "Portaria",
-      "numero": null,
-      "ementa": "Aprova o Perfil da Família Beneficiária da Floresta Nacional de Carajás (processo ICMBio nº 02122.000214/2018-62).",
-      "data": "2026-09-15",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=15/09/2026&jornal=515&pagina=64"
     }
   ]
 }
