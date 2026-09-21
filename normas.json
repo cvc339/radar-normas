@@ -1,17 +1,17 @@
 {
-  "gerado_em": "2026-09-20T17:11:38.961Z",
+  "gerado_em": "2026-09-21T16:33:11.372Z",
   "janela_dias": 5,
   "total": 1,
   "itens": [
     {
-      "origem": "ACAM",
-      "fonte": "MG",
-      "orgao": "IEPHA",
-      "tipo": "Portaria",
-      "numero": "38",
-      "ementa": "Aprova a Política de Inovação do Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais – IEPHA-MG",
-      "data": "2026-09-15",
-      "url": "https://www.pesquisalegislativa.mg.gov.br/LegislacaoCompleta.aspx?cod=223151&marc="
+      "origem": "ALMG",
+      "fonte": "ALMG",
+      "orgao": "Executivo",
+      "tipo": "DEC",
+      "numero": "49288",
+      "ementa": "Altera o Decreto nº 49.072, de 8 de julho de 2025, que regulamenta o inciso IV do art. 2º e os arts. 6º, 7º, 8º, 14, 21, 22, 23, 25, 26 e 27 da Lei nº 24.931, de 25 de julho de 2024, que institui a política estadual de agricultura irrigada sustentável, dispõe sobre a outorga coletiva do direito de uso de recursos hídricos e dá outras providências.",
+      "data": "2026-09-18",
+      "url": "https://www.almg.gov.br/legislacao-mineira/DEC/49288/2026/"
     }
   ]
 }
