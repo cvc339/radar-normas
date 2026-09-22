@@ -1,8 +1,18 @@
 {
-  "gerado_em": "2026-09-21T18:17:23.536Z",
+  "gerado_em": "2026-09-22T15:07:36.973Z",
   "janela_dias": 5,
-  "total": 1,
+  "total": 2,
   "itens": [
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração/Diretoria Colegiada",
+      "tipo": "Resolução",
+      "numero": null,
+      "ementa": "Dispõe sobre o Sistema de Planejamento Estratégico Institucional da Agência Nacional de Mineração - ANM e estabelece diretrizes para o ciclo integrado de planejamento da ANM.",
+      "data": "2026-09-21",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=21/09/2026&jornal=515&pagina=108"
+    },
     {
       "origem": "ALMG",
       "fonte": "ALMG",
