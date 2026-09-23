@@ -50,7 +50,7 @@ function dentroJanela(iso) {
 function rotulo(tipo, numero, ano, orgao) {
   const t = (tipo || "Norma").trim()
   const n = numero ? `nº ${String(numero).trim()}` : ""
-  const a = ano ? `/${ano}` : ""
+  const a = ano && numero ? `/${ano}` : "" // sem numero, "/2026" solto nao informa nada
   const o = orgao ? ` (${String(orgao).trim()})` : ""
   return `${t} ${n}${a}${o}`.replace(/\s+/g, " ").trim()
 }
