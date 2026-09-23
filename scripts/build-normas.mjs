@@ -9,10 +9,12 @@ import { readFileSync, writeFileSync } from "node:fs"
 
 const ACAM_URL =
   process.env.ACAM_RADAR_URL ||
-  "https://www.acam.com.br/api/admin/newsletter/radar-recentes?dias=4&fontes=MG,DOU"
+  "https://www.acam.com.br/api/admin/newsletter/radar-recentes?dias=30&fontes=MG,DOU"
 const READ_KEY = process.env.RADAR_READ_KEY || ""
 
-const JANELA_DIAS = 5 // so entram normas com data dentro dos ultimos N dias
+const JANELA_DIAS = 30 // teto de idade da norma; o corte que vale e o de PRIMEIRA APARICAO
+const JANELA_VISIVEL = 3 // reporta o que passou a ser visto nos ultimos N dias
+const VISTOS_TTL = 120 // dias que uma chave fica no state.vistos
 const ALMG_TIPOS = ["DEC", "LEI"]
 const ALMG_MISS_STOP = 20 // para apos N numeros seguidos inexistentes (tolera gaps na sequencia)
 const ALMG_MAX_SCAN = 500 // teto de seguranca por tipo/execucao
@@ -25,17 +27,31 @@ const ALMG_BUFFER = 40 // re-varre N numeros abaixo do ultimo visto p/ cobrir to
 const RELEVANTE =
   /ambient|licenciament|condicionante|\bEIA\b|\bRIMA\b|\bRAS\b|compensa[cç][aã]o|interven[cç][aã]o|\bASV\b|supress[aã]o|desmatament|reserva legal|\bAPP\b|[aá]rea de preserva[cç]|unidade de conserva|\bRPPN\b|\bAPA\b|parque (estadual|nacional|natural)|esta[cç][aã]o ecol[oó]gica|monumento natural|ref[uú]gio de vida|plano de manejo|zona de amortecimento|fauna|flora|vegeta[cç]|florest|bioma|biodiversidade|recurso[s]? h[ií]dric|outorga|barragem|efluente|res[ií]duo|polui[cç]|emiss[aã]o (atmosf|de gases|de poluentes)|geolog|espeleol|caverna|minera[cç]|lavra|\bANM\b|l[ií]tio|terras raras|patrim[oô]nio (cultural|arqueol[oó]|hist[oó]ric|natural|espeleol)|arqueol[oó]|regulariza[cç][aã]o (fundi[aá]ria|ambiental)|\bTCCFM\b|auto de infra[cç]|embargo ambiental|\bISO 14001\b|\bESG\b|gest[aã]o ambiental|saneament/i
 const ADMINISTRATIVO =
-  /regimento interno|\bnome[aeio]|exonera|dispensa[^.]{0,20}(membro|conselheir)|composi[cç][aã]o[^.]{0,20}(conselho|c[aâ]mara|comit[eê]|colegiado|grupo)|designa[^.]{0,20}(membro|representant|conselheir|servidor)|institui[^.]{0,25}(comit[eê]|c[aâ]mara t[eé]cnica|grupo de trabalho|conselho)|recomp[oõ]|recomposi[cç]|substitui[cç][aã]o de (membro|conselheir|servidor)|altera[^.]{0,25}composi[cç]/i
+  /regimento interno|nome[aeio]|exonera|dispensa[^.]{0,20}(membro|conselheir)|composi[cç][aã]o[^.]{0,20}(conselho|c[aâ]mara|comit[eê]|colegiado|grupo)|designa[^.]{0,20}(membro|representant|conselheir|servidor)|institui[^.]{0,25}(comit[eê]|c[aâ]mara t[eé]cnica|grupo de trabalho|conselho)|recomp[oõ]e?[^.]{0,30}(conselho|c[aâ]mara|comit[eê]|colegiado|membro|conselheir)|recomposi[cç][aã]o[^.]{0,30}(conselho|c[aâ]mara|comit[eê]|colegiado|membro|conselheir)|substitui[cç][aã]o de (membro|conselheir|servidor)|altera[^.]{0,25}composi[cç]/i
+
 // Tema oficial do ALMG (campo indexacao) — sinal positivo autoritativo adicional.
 const ALMG_TEMAS =
   /meio ambiente|recursos h[ií]dricos|minera[cç][aã]o|recursos minerais|florest|patrim[oô]nio (cultural|arqueol|natural)|unidade de conserva/i
 
-// Interessa ao briefing se toca o escopo ambiental amplo/gestao e NAO e meramente
-// administrativo. Para o ALMG, a indexacao (tema oficial) reforca o sinal positivo.
-function interessa(ementa, indexacao = "") {
+// Regra de 22/09/2026, decisao do titular: preferir achar norma que ele descarte a
+// perder norma por filtro. A exclusao administrativa so opera quando NAO ha sinal
+// positivo autoritativo, e nunca sobre fonte que ja e tematica por natureza.
+//
+//   CTL/MG  -> sem filtro. A coleta ja e por orgao ambiental (COPAM, SEMAD, FEAM,
+//              IEF, IGAM, IEPHA), e o orgao e o filtro.
+//   ALMG    -> o tema oficial (campo indexacao) manda. Sem tema oficial, vale a
+//              ementa, e so ai o veto administrativo se aplica.
+//   DOU     -> mantem filtro, por volume, com a inclusao vencendo a exclusao.
+function interessaDou(ementa) {
   const em = ementa || ""
-  if (ADMINISTRATIVO.test(em)) return false
-  return RELEVANTE.test(em) || (indexacao && ALMG_TEMAS.test(indexacao))
+  if (RELEVANTE.test(em)) return true
+  return false
+}
+function interessaAlmg(ementa, indexacao = "") {
+  const em = ementa || ""
+  if (indexacao && ALMG_TEMAS.test(indexacao)) return true // tema oficial prevalece
+  if (!RELEVANTE.test(em)) return false
+  return !ADMINISTRATIVO.test(em)
 }
 
 function parseYMD(s) {
@@ -51,6 +67,16 @@ function dentroJanela(dataStr) {
   const corte = new Date()
   corte.setDate(corte.getDate() - JANELA_DIAS)
   return d >= corte
+}
+
+// Rotulo pronto para o briefing: tipo, numero e ano juntos, do jeito que o titular
+// filtra a leitura (pedido de 22/09/2026). Orgao entra quando a fonte o informa.
+function rotulo(tipo, numero, ano, orgao) {
+  const t = (tipo || "Norma").trim()
+  const n = numero ? `nº ${String(numero).trim()}` : ""
+  const a = ano ? `/${ano}` : ""
+  const o = orgao ? ` (${String(orgao).trim()})` : ""
+  return `${t} ${n}${a}${o}`.replace(/\s+/g, " ").trim()
 }
 
 async function coletarAcam() {
@@ -71,6 +97,8 @@ async function coletarAcam() {
       orgao: it.orgao || null,
       tipo: it.tipo || null,
       numero: it.numero || null,
+      ano: it.ano || (it.data_publicacao ? String(it.data_publicacao).slice(0, 4) : null),
+      rotulo: rotulo(it.tipo, it.numero, it.ano || (it.data_publicacao ? String(it.data_publicacao).slice(0, 4) : null), it.orgao),
       ementa: (it.resumo || it.titulo || "").replace(/\s+/g, " ").trim(),
       data: it.data_publicacao || null,
       url: it.url || null,
@@ -125,7 +153,7 @@ async function coletarAlmg(state) {
         maxVisto = Math.max(maxVisto, +it.numero || n)
         const idx = it.indexacao || ""
         const em = it.ementa || ""
-        if (interessa(em, idx) && dentroJanela(it.data)) {
+        if (interessaAlmg(em, idx) && dentroJanela(it.data)) {
           const d = parseYMD(it.data)
           out.push({
             origem: "ALMG",
@@ -133,6 +161,8 @@ async function coletarAlmg(state) {
             orgao: it.origem || null,
             tipo: it.tipo,
             numero: it.numero,
+            ano: it.ano,
+            rotulo: rotulo(it.tipo, it.numero, it.ano, it.origem),
             ementa: em.replace(/\s+/g, " ").trim(),
             data: d ? isoDate(d) : null,
             url: `https://www.almg.gov.br/legislacao-mineira/${it.tipo}/${it.numero}/${it.ano}/`,
@@ -175,13 +205,49 @@ const state = (() => {
 
 const acam = await coletarAcam()
 const almg = await coletarAlmg(state)
-let itens = dedup([...acam.filter((a) => interessa(a.ementa)), ...almg])
+
+// CTL/MG entra inteiro. DOU mantem o filtro de relevancia. ALMG ja veio filtrado.
+const acamFiltrado = acam.filter((a) =>
+  String(a.fonte || "").toUpperCase() === "DOU" ? interessaDou(a.ementa) : true,
+)
+
+let itens = dedup([...acamFiltrado, ...almg])
+
+// Corte por PRIMEIRA APARICAO. Um radar reporta o que ficou visivel, nao o que foi
+// datado. A norma so entra no CTL depois de publicada, e a data que ela carrega e a
+// de assinatura, com defasagem medida de 5 a 7 dias (diagnostico de 22/09/2026).
+const hojeISO = isoDate(new Date())
+state.vistos = state.vistos || {}
+const corteVis = new Date()
+corteVis.setDate(corteVis.getDate() - JANELA_VISIVEL)
+const novos = []
+for (const it of itens) {
+  const k = `${it.fonte}|${it.tipo}|${it.numero}|${it.data}`.toLowerCase()
+  if (!state.vistos[k]) state.vistos[k] = hojeISO
+  it.visto_em = state.vistos[k]
+  if (new Date(it.visto_em) >= corteVis) novos.push(it)
+}
+itens = novos
+
+// poda o historico de vistos
+const corteTtl = new Date()
+corteTtl.setDate(corteTtl.getDate() - VISTOS_TTL)
+for (const [k, v] of Object.entries(state.vistos)) {
+  if (new Date(v) < corteTtl) delete state.vistos[k]
+}
+
 itens.sort((a, b) => String(b.data || "").localeCompare(String(a.data || "")))
 
 writeFileSync(
   "normas.json",
   JSON.stringify(
-    { gerado_em: new Date().toISOString(), janela_dias: JANELA_DIAS, total: itens.length, itens },
+    {
+      gerado_em: new Date().toISOString(),
+      janela_dias: JANELA_DIAS,
+      janela_visivel_dias: JANELA_VISIVEL,
+      total: itens.length,
+      itens,
+    },
     null,
     2,
   ),
