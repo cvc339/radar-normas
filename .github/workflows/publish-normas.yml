@@ -1,16 +1,24 @@
 name: Publicar normas.json
 
-# Monta normas.json (infralegal MG via ACAM + leis/decretos do ALMG) e commita
-# neste repo publico, para o briefing diario ler via raw.githubusercontent.
-# Roda 07:30 BRT (apos a coleta do ACAM, 07:00) e 09:30 BRT (rede de seguranca).
+# Monta normas.json (Diarios Oficiais de MG + DOU via ACAM) e commita neste repo
+# publico, para o briefing diario ler via raw.githubusercontent.
+# O Diario do Executivo sai de terca a sabado; roda 07:30 BRT e 09:30 BRT (rede de
+# seguranca). Coleta os ultimos 10 dias pela data de PUBLICACAO e o build so reporta
+# o que apareceu pela primeira vez nos ultimos 3 dias (state.json).
 #
-# Pre-requisito: secret RADAR_READ_KEY (mesmo valor da variavel no Railway do ACAM).
+# Pre-requisito: secret RADAR_READ_KEY (mesmo valor da variavel no Railway do ACAM),
+# usado so para o DOU. Sem ele, MG continua saindo normalmente.
 
 on:
   schedule:
     - cron: '30 10 * * *'   # 07:30 BRT
     - cron: '30 12 * * *'   # 09:30 BRT (segunda passada)
   workflow_dispatch:
+    inputs:
+      dias:
+        description: 'Janela de coleta no Diario, em dias (padrao 10)'
+        required: false
+        default: '10'
 
 concurrency:
   group: publicar-normas
@@ -23,6 +31,15 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar PyMuPDF
+        run: pip install --quiet pymupdf
+      - name: Coletar Diarios Oficiais de MG
+        run: |
+          DIAS="${{ github.event.inputs.dias }}"
+          python scripts/doe_mg_coleta.py --dias "${DIAS:-10}" --saida normas-doe.json --cache "$RUNNER_TEMP/cache_doe"
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
