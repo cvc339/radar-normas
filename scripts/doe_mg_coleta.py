@@ -42,7 +42,13 @@ import urllib.request
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-API = "https://www.jornalminasgerais.mg.gov.br/api/v1/"
+# Só IPv4. O runner do GitHub Actions não tem rota IPv6 e um host com AAAA dá "Network is
+# unreachable" (Errno 101) antes de tentar o A. Sem efeito onde há IPv6 de verdade.
+import socket
+_getaddrinfo = socket.getaddrinfo
+socket.getaddrinfo = lambda *a, **k: [ai for ai in _getaddrinfo(*a, **k) if ai[0] == socket.AF_INET] or _getaddrinfo(*a, **k)
+
+API ="https://www.jornalminasgerais.mg.gov.br/api/v1/"
 SITE_EXEC = "https://www.jornalminasgerais.mg.gov.br/?dataJornal="
 URL_LEG = "https://diariolegislativo.almg.gov.br/{ano}/L{ymd}.pdf"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
@@ -96,12 +102,24 @@ def http_json(path, params=None, method="GET", body=None, token=None, timeout=12
         return json.loads(r.read().decode("utf-8"))
 
 
+class _RedirecionamentoVisivel(urllib.request.HTTPRedirectHandler):
+    """Não segue redirecionamento às cegas: registra o alvo. O runner do GitHub recebeu 302 do
+    Diário do Legislativo e o alvo era inalcançável (23/09/2026); daqui o mesmo URL dá 200."""
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        raise urllib.error.HTTPError(req.full_url, code, f"redirecionado para {newurl}", headers, fp)
+
+
+_ABRIDOR = urllib.request.build_opener(_RedirecionamentoVisivel)
+
+
 def http_bytes(url, timeout=120):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
+        with _ABRIDOR.open(req, timeout=timeout) as r:
             return r.status, r.read()
     except urllib.error.HTTPError as e:
+        if e.code in (301, 302, 303, 307, 308):
+            print(f"  {url}: {e.code} {e.msg}", file=sys.stderr)
         return e.code, b""
 
 
@@ -342,11 +360,19 @@ def varrer_leg(de, ate, cache):
     import fitz
     itens, dias = [], []
     d = de
+    falhas = 0
     while d <= ate:
         ymd = d.strftime("%Y%m%d")
         fn = os.path.join(cache, f"leg-{d.isoformat()}.pdf")
         if not os.path.exists(fn):
-            st, b = http_bytes(URL_LEG.format(ano=d.year, ymd=ymd))
+            try:
+                st, b = http_bytes(URL_LEG.format(ano=d.year, ymd=ymd))
+            except Exception as e:   # rede/redirecionamento: um dia perdido não derruba a coleta
+                falhas += 1
+                if falhas <= 2:
+                    print(f"  Legislativo {d}: falha de rede ({e})", file=sys.stderr)
+                d += dt.timedelta(days=1)
+                continue
             if st == 200 and b[:4] == b"%PDF":
                 open(fn, "wb").write(b)
         if os.path.exists(fn):
@@ -368,6 +394,8 @@ def varrer_leg(de, ate, cache):
                         n += 1
             dias.append((d.isoformat(), doc.page_count, n))
         d += dt.timedelta(days=1)
+    if falhas:
+        print(f"  Legislativo: {falhas} dia(s) sem acesso", file=sys.stderr)
     return itens, dias
 
 
@@ -404,13 +432,21 @@ def main():
     else:
         ap.error("informe --dias ou --de e --ate")
 
-    tok = autenticar()
-    eds = edicoes_exec(tok, de, ate)
-    print(f"Executivo: {len(eds)} edições em {de}..{ate}")
     todos = []
+    try:
+        tok = autenticar()
+        eds = edicoes_exec(tok, de, ate)
+        print(f"Executivo: {len(eds)} edições em {de}..{ate}")
+    except Exception as e:
+        print(f"Executivo: sem acesso à API do Jornal Minas Gerais ({e})", file=sys.stderr)
+        eds = []
     for ed in eds:
-        fn, meta = baixar_exec(tok, ed, a.cache)
-        itens = varrer_exec(fn, meta, filtros, ed)
+        try:
+            fn, meta = baixar_exec(tok, ed, a.cache)
+            itens = varrer_exec(fn, meta, filtros, ed)
+        except Exception as e:   # uma edição com problema não derruba as demais
+            print(f"  {ed['data']}: falha ({e})", file=sys.stderr)
+            continue
         todos.extend(itens)
         print(f"  {ed['data']}{' (extra)' if ed['extra'] else ''}: {meta.get('totalPaginas')} p., {len(itens)} normas")
     if not a.sem_legislativo:
