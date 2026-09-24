@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-24T13:37:41.355Z",
+  "gerado_em": "2026-09-24T14:28:04.519Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 8,
+  "total": 7,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -106,19 +106,6 @@
       "ementa": "Altera o Anexo da Portaria Ibama nº 108, de 12 de agosto de 2024, que institui o Planejamento Estratégico do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) para o quadriênio 2024-2027.",
       "data": "2026-09-11",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=11/09/2026&jornal=515&pagina=139",
-      "visto_em": "2026-09-23"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
-      "tipo": "Portaria",
-      "numero": null,
-      "ano": "2026",
-      "rotulo": "Portaria (Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis)",
-      "ementa": "Altera a Portaria Ibama nº 64, de 13 de abril de 2026, que autoriza o Centro Nacional de Prevenção e Combate aos Incêndios Florestais (Prevfogo) a contratar Brigadas Federais para a prevenção e combate aos incêndios florestais.",
-      "data": "2026-09-08",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=08/09/2026&jornal=515&pagina=98",
       "visto_em": "2026-09-23"
     }
   ]
