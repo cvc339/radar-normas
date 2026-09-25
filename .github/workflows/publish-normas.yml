@@ -4,9 +4,12 @@ name: Publicar normas.json
 # publico, para o briefing diario ler via raw.githubusercontent.
 # O Diario do Executivo sai de terca a sabado, disponivel na API ainda na madrugada.
 # O briefing (routine claude.ai) le o normas.json as 07:15 BRT (10:15 UTC), entao o
-# radar precisa estar publicado ANTES disso. O cron do GitHub atrasa horas em dias
-# ruins (em 22/09/2026 as passadas de 10:30 e 12:30 UTC rodaram 15:06 e 17:09 UTC),
-# por isso tres passadas a partir das 03:00 BRT, em minutos fora da hora cheia.
+# radar precisa estar publicado ANTES disso. O cron do GitHub atrasa TODOS os dias
+# neste repositorio, entre 3h27 e 6h02 (medido de 18 a 24/09/2026); em 24/09 as
+# passadas de 06:07, 08:23 e 09:41 UTC rodaram 11:35, 13:36 e 14:26 UTC, todas depois
+# do briefing. Por isso as tres passadas comecam na madrugada UTC (noite de Brasilia),
+# para que mesmo 6 h de atraso caiam antes das 10:15 UTC. Paliativo; a solucao
+# robusta e disparar por API (workflow_dispatch comeca em 0 s) de um agendador externo.
 # Coleta os ultimos 10 dias pela data de PUBLICACAO e o build so reporta o que
 # apareceu pela primeira vez nos ultimos 3 dias (state.json).
 #
@@ -15,9 +18,9 @@ name: Publicar normas.json
 
 on:
   schedule:
-    - cron: '7 6 * * *'     # 03:07 BRT
-    - cron: '23 8 * * *'    # 05:23 BRT (segunda passada)
-    - cron: '41 9 * * *'    # 06:41 BRT (ultima antes do briefing das 07:15)
+    - cron: '17 2 * * *'    # 23:17 BRT da vespera; com o atraso usual chega 05:45-08:20 UTC
+    - cron: '23 3 * * *'    # 00:23 BRT
+    - cron: '7 4 * * *'     # 01:07 BRT; 04:07 + 6h02 de atraso = 10:09 UTC, antes do briefing
   workflow_dispatch:
     inputs:
       dias:
