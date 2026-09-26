@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T09:34:20.150Z",
+  "gerado_em": "2026-09-26T07:38:26.490Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 15,
+  "total": 16,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -173,6 +173,19 @@
       "pagina": 7,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-24",
       "visto_em": "2026-09-24"
+    },
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Gabinete do Ministro",
+      "tipo": "Portaria",
+      "numero": null,
+      "ano": "2026",
+      "rotulo": "Portaria (Ministério do Meio Ambiente e Mudança do Clima/Gabinete do Ministro)",
+      "ementa": "Altera e revoga dispositivos da Portaria MMA nº 280, de 2 de julho de 2021, que aprova o Regimento Interno do Comitê de Desenvolvimento na Carreira - CDC, no âmbito do Ministério do Meio Ambiente, e da Portaria MMA nº 44, de 11 de março de 2022, que dispõe sobre os critérios e procedimentos para imp",
+      "data": "2026-09-24",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=24/09/2026&jornal=515&pagina=237",
+      "visto_em": "2026-09-26"
     },
     {
       "origem": "DOE-MG",
