@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T07:38:26.490Z",
+  "gerado_em": "2026-09-26T08:44:32.052Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,68 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 16,
+  "total": 20,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Governo do Estado",
+      "tipo": "Decreto",
+      "numero": "49.292",
+      "ano": "2026",
+      "rotulo": "Decreto nº 49.292, de 25 de Setembro de 2026",
+      "ementa": "Altera o Decreto nº 48.589, de 22 de março de 2023, que regulamenta o Imposto sobre Operações relativas à Circulação de Mercadorias e sobre Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação – ICMS, e dá outras providências",
+      "data": "2026-09-26",
+      "data_assinatura": "2026-09-25",
+      "pagina": 1,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-26",
+      "visto_em": "2026-09-26"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+      "tipo": "Portaria",
+      "numero": "2480",
+      "ano": "2026",
+      "rotulo": "Portaria IMA nº 2480, de 26 de Setembro de 2026",
+      "ementa": "Altera a Portaria IMA no2.325 de 4 de setembro de 2024que estabelece os requisitos e as normas técnicas para a atividade da piscicultura ornamental no estado de Minas Gerais.",
+      "data": "2026-09-26",
+      "data_assinatura": "2026-09-26",
+      "pagina": 6,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-26",
+      "visto_em": "2026-09-26"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
+      "tipo": "Portaria",
+      "numero": "4292",
+      "ano": "2026",
+      "rotulo": "Portaria nº 4292, de 24 de Setembro de 2026",
+      "ementa": "Dispõe sobre conceder progressão na carreira a servidores do Grupo de Atividades de Transportes e Obras Públicas do Poder Executivo, de que trata a Lei nº 15.469, de 13 de janeiro de 2005",
+      "data": "2026-09-26",
+      "data_assinatura": "2026-09-24",
+      "pagina": 7,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-26",
+      "visto_em": "2026-09-26"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
+      "tipo": "Portaria",
+      "numero": "4294",
+      "ano": "2026",
+      "rotulo": "Portaria nº 4294, de 24 de Setembro de 2026",
+      "ementa": "Dispõe sobre conceder progressão na carreira a servidor do Grupo de Atividades de Transportes e Obras Públicas do Poder Executivo, de que trata a Lei nº 15.469, de 13 de janeiro de 2005",
+      "data": "2026-09-26",
+      "data_assinatura": "2026-09-24",
+      "pagina": 7,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-26",
+      "visto_em": "2026-09-26"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
