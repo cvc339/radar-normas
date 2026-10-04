@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-03T09:49:53.962Z",
+  "gerado_em": "2026-10-04T08:25:31.488Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 17,
+  "total": 12,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -160,6 +160,19 @@
       "visto_em": "2026-10-02"
     },
     {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração",
+      "tipo": "Resolução",
+      "numero": null,
+      "ano": "2026",
+      "rotulo": "Resolução (Ministério de Minas e Energia/Agência Nacional de Mineração)",
+      "ementa": "Prorroga a vigência da Agenda Regulatória da Agência Nacional de Mineração - ANM para o exercício de 2027, aprova a sua segunda Revisão Extraordinária e altera a Resolução ANM nº 191, de 18 de dezembro de 2024..",
+      "data": "2026-10-02",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=02/10/2026&jornal=515&pagina=77",
+      "visto_em": "2026-10-04"
+    },
+    {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
       "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
@@ -173,96 +186,6 @@
       "pagina": 5,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-01",
       "visto_em": "2026-10-02"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "2481",
-      "ano": "2026",
-      "rotulo": "Portaria IMA nº 2481, de 28 de Setembro de 2026",
-      "ementa": "Faz designação de servidor no âmbito do IMA.",
-      "data": "2026-09-30",
-      "data_assinatura": "2026-09-28",
-      "pagina": 19,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-30",
-      "visto_em": "2026-09-30"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "2482",
-      "ano": "2026",
-      "rotulo": "Portaria IMA nº 2482, de 29 de Setembro de 2026",
-      "ementa": "Altera a Portaria IMA nº 2.296, de 08 de abril de 2024, que estabelece normas e procedimentos para a realização e o controle sanitário de eventos pecuários no Estado de Minas Gerais.",
-      "data": "2026-09-30",
-      "data_assinatura": "2026-09-29",
-      "pagina": 19,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-30",
-      "visto_em": "2026-09-30"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "4.293",
-      "ano": "2026",
-      "rotulo": "Portaria nº 4.293, de 25 de Setembro de 2026",
-      "ementa": "Designa Policiais Militares como agentes da autoridade de trânsito.",
-      "data": "2026-09-30",
-      "data_assinatura": "2026-09-25",
-      "pagina": 19,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-30",
-      "visto_em": "2026-09-30"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Resolução",
-      "numero": "3.425",
-      "ano": "2026",
-      "rotulo": "Resolução SEMAD nº 3.425, de 22 de Setembro de 2026",
-      "ementa": "Divulga dados cadastrais apurados no 2º trimestre de 2026, referentes aos sistemas de saneamento ambiental regularizados pelo órgão ambiental estadual e às unidades de conservação federais, estaduais, municipais e particulares, e áreas de reservas indígenas, situadas no Estado de Minas Gerais, confo",
-      "data": "2026-09-30",
-      "data_assinatura": "2026-09-22",
-      "pagina": 22,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-30",
-      "visto_em": "2026-09-30"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Resolução",
-      "numero": "3.426",
-      "ano": "2026",
-      "rotulo": "Resolução SEMAD nº 3.426, de 22 de Setembro de 2026",
-      "ementa": "Divulga a relação dos municípios habilitados e respectivos Índices de Conservação – IC, de Saneamento Ambiental – ISA, de Mata Seca – IMS e de Meio Ambiente – IMA relativos aos dados apurados no 2º trimestre de 2026, de acordo com o inciso VIII, do art. 1º, da Lei nº 18.030, de 12 de janeiro de 2009.",
-      "data": "2026-09-30",
-      "data_assinatura": "2026-09-22",
-      "pagina": 22,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-30",
-      "visto_em": "2026-09-30"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Deliberação",
-      "numero": "2.198",
-      "ano": "2026",
-      "rotulo": "Deliberação COPAM nº 2.198, de 29 de Setembro de 2026",
-      "ementa": "Altera a Deliberação Copam nº 1.788, de 30 de maio de 2023, que estabelece a composição e designação dos membros da Câmara Técnica Especializada de Políticas de Energia e Mudanças Climáticas do Conselho Estadual de Política Ambiental, para o mandato 2023-2025, prorrogado pela Deliberação Copam n° 2.",
-      "data": "2026-09-30",
-      "data_assinatura": "2026-09-29",
-      "pagina": 22,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-09-30",
-      "visto_em": "2026-09-30"
     }
   ]
 }
