@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-05T11:23:46.492Z",
+  "gerado_em": "2026-10-06T08:56:57.066Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,53 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 12,
+  "total": 9,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Governo do Estado",
+      "tipo": "Decreto",
+      "numero": "49.294",
+      "ano": "2026",
+      "rotulo": "Decreto nº 49.294, de 5 de Outubro de 2026",
+      "ementa": "Remaneja valores de DAD-unitário da Secretaria de Estado de Desenvolvimento Econômico para a Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável e dá outras providências",
+      "data": "2026-10-06",
+      "data_assinatura": "2026-10-05",
+      "pagina": 1,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-06",
+      "visto_em": "2026-10-06"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
+      "tipo": "Deliberação",
+      "numero": "40",
+      "ano": "2026",
+      "rotulo": "Deliberação ARTEMIG nº 40, de 25 de Setembro de 2026",
+      "ementa": "Dispõe sobre o reajuste ordinário dos tetos das tarifas aeroportuárias de embarque, conexão, pouso, permanência, armazenagem e capatazia, domésticas e internacionais, do Aeroporto Presidente Itamar Franco - Regional da Zona da Mata (SBZM), localizado no Município de Goianá, no Estado de Minas Gerais",
+      "data": "2026-10-06",
+      "data_assinatura": "2026-09-25",
+      "pagina": 9,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-06",
+      "visto_em": "2026-10-06"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
+      "tipo": "Deliberação",
+      "numero": "41",
+      "ano": "2026",
+      "rotulo": "Deliberação ARTEMIG nº 41, de 25 de Setembro de 2026",
+      "ementa": "A Diretoria Colegiada da Agência Reguladora de Transportes do Estado de Minas Gerais (ARTEMIG), no uso de suas atribuições que lhe confere a Lei nº 25.235, de 8 de maio de 2025, fundamentada no documento “Relatório e Voto nº 009/2026 - (149924054)”, e no que consta no Processo SEI nº 2471. 01.000101",
+      "data": "2026-10-06",
+      "data_assinatura": "2026-09-25",
+      "pagina": 10,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-06",
+      "visto_em": "2026-10-06"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
@@ -85,81 +130,6 @@
       "visto_em": "2026-10-03"
     },
     {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Governo do Estado",
-      "tipo": "Decreto",
-      "numero": "49.293",
-      "ano": "2026",
-      "rotulo": "Decreto nº 49.293, de 1º de Outubro de 2026",
-      "ementa": "Contém o Estatuto da Fundação Centro de Hematologia e Hemoterapia do Estado de Minas Gerais",
-      "data": "2026-10-02",
-      "data_assinatura": "2026-10-01",
-      "pagina": 1,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-02",
-      "visto_em": "2026-10-02"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Resolução",
-      "numero": "3.427",
-      "ano": "2026",
-      "rotulo": "Resolução SEMAD nº 3.427, de 30 de Setembro de 2026",
-      "ementa": "Altera a Resolução Semad nº 3.381, de 18 de setembro de 2025, que dispõe sobre a delegação de competência para a prática de atos de ordenação de despesas, de gestão financeira, de procedimentos licitatórios, de contratações e de convênios, de concessão de diárias e passagens, de gestão de materiais",
-      "data": "2026-10-02",
-      "data_assinatura": "2026-09-30",
-      "pagina": 19,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-02",
-      "visto_em": "2026-10-02"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "78",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 78, de 30 de Setembro de 2026",
-      "ementa": "Reconhece como Reserva Particular do Patrimônio Natural, a RPPN “Ouro Verde” de propriedade de Rogério Sousa de Oliveira e Alessandra Silva Oliveira, localizada no município de Carrancas/MG.",
-      "data": "2026-10-02",
-      "data_assinatura": "2026-09-30",
-      "pagina": 19,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-02",
-      "visto_em": "2026-10-02"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "79",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 79, de 30 de Setembro de 2026",
-      "ementa": "Designa, no âmbito do Instituto Estadual de Florestas, os membros da Comissão de Acompanhamento Contratual do Contrato de Concessão NPE/IEF n. º 01/2023, de Uso de Bem Público do PE Ibitipoca e do PE Itacolomi",
-      "data": "2026-10-02",
-      "data_assinatura": "2026-09-30",
-      "pagina": 19,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-02",
-      "visto_em": "2026-10-02"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "80",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 80, de 30 de Setembro de 2026",
-      "ementa": "Designa, no âmbito do Instituto Estadual de Florestas, os membros da Comissão de Acompanhamento Contratual do Contrato de Concessão NPE/IEF n. º 01/2021, de Uso de Bem Público da Rota das Grutas Peter Lund",
-      "data": "2026-10-02",
-      "data_assinatura": "2026-09-30",
-      "pagina": 20,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-02",
-      "visto_em": "2026-10-02"
-    },
-    {
       "origem": "ACAM",
       "fonte": "DOU",
       "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração",
@@ -171,21 +141,6 @@
       "data": "2026-10-02",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=02/10/2026&jornal=515&pagina=77",
       "visto_em": "2026-10-04"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Resolução",
-      "numero": "25/2025",
-      "ano": "2026",
-      "rotulo": "Resolução SEAPA nº 25/2025, de 29 de Setembro de 2026",
-      "ementa": "PROCESSO SEI! N° 1230. 01.0001184/2025-04 Designa Membros Para Composição Do Grupo Coordenador Do Fundo Estadual De Desenvolvimento Rural – FUNDERUR O Secretário De Estado de Agricultura, Pecuária e Abastecimento, no uso das atribuições conferidas pelo art. 93, § 1º, da Constituição do Estado e tendo em vista o disposto no art. 19 da Lei Estadual nº 23.304, de 30 de maio de 2019 e nos arts. 2º e 5º, IX, do Decreto 47.783, de 06 de dezembro de 2019, e em cumprimento ao disposto na Lei nº 11.744, de 16 de janeiro de 1995 e no Decreto n° 39.866, de 03 de setembro de 1998, Resolve: Art. 1º - Ficam designados para compor o Grupo Coordenador do Fundo Estadual de Desenvolvimento Rural – FUNDERUR, na qualidade de representantes dos órgãos e entidades previstos no art. 11 da Lei nº 11.744, de 16 de janeiro de 1995, os seguintes membros, sob a presidência do primeiro: 1.",
-      "data": "2026-10-01",
-      "data_assinatura": "2026-09-29",
-      "pagina": 5,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-01",
-      "visto_em": "2026-10-02"
     }
   ]
 }
