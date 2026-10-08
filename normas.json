@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-07T11:01:12.572Z",
+  "gerado_em": "2026-10-08T08:55:22.391Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 8,
+  "total": 7,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -113,19 +113,6 @@
       "pagina": 10,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-06",
       "visto_em": "2026-10-06"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração",
-      "tipo": "Resolução",
-      "numero": null,
-      "ano": "2026",
-      "rotulo": "Resolução (Ministério de Minas e Energia/Agência Nacional de Mineração)",
-      "ementa": "Prorroga a vigência da Agenda Regulatória da Agência Nacional de Mineração - ANM para o exercício de 2027, aprova a sua segunda Revisão Extraordinária e altera a Resolução ANM nº 191, de 18 de dezembro de 2024..",
-      "data": "2026-10-02",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=02/10/2026&jornal=515&pagina=77",
-      "visto_em": "2026-10-04"
     }
   ]
 }
