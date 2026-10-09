@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T11:19:58.058Z",
+  "gerado_em": "2026-10-09T08:59:46.229Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,68 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 7,
+  "total": 11,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+      "tipo": "Resolução Conjunta",
+      "numero": "1",
+      "ano": "2026",
+      "rotulo": "Resolução Conjunta IMA/SEINFRA nº 1, de 06 de Outubro de 2026",
+      "ementa": "Designa servidores públicos responsáveis pelo acompanhamento dos Projetos para Regularização do Parque Bolivar Andrade.",
+      "data": "2026-10-09",
+      "data_assinatura": "2026-10-06",
+      "pagina": 4,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-09",
+      "visto_em": "2026-10-09"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Resolução",
+      "numero": "3.429",
+      "ano": "2026",
+      "rotulo": "Resolução SEMAD nº 3.429, de 06 de Outubro de 2026",
+      "ementa": "Dispõe sobre o credenciamento de órgãos e entidades para o recebimento de bens apreendidos e recolhidos no exercício da fiscalização ambiental no âmbito da Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "data": "2026-10-09",
+      "data_assinatura": "2026-10-06",
+      "pagina": 7,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-09",
+      "visto_em": "2026-10-09"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Resolução",
+      "numero": "3.428",
+      "ano": "2026",
+      "rotulo": "Resolução SEMAD nº 3.428, de 05 de Outubro de 2026",
+      "ementa": "Aprova a Doutrina de Inteligência Ambiental da Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável de Minas Gerais",
+      "data": "2026-10-09",
+      "data_assinatura": "2026-10-05",
+      "pagina": 8,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-09",
+      "visto_em": "2026-10-09"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Resolução",
+      "numero": "3.430",
+      "ano": "2026",
+      "rotulo": "Resolução SEMAD nº 3.430, de 07 de Outubro de 2026",
+      "ementa": "Altera a Resolução Semad nº 3.324, de 24 de setembro de 2024",
+      "data": "2026-10-09",
+      "data_assinatura": "2026-10-07",
+      "pagina": 8,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-09",
+      "visto_em": "2026-10-09"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
