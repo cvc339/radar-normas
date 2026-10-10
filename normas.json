@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T11:17:53.025Z",
+  "gerado_em": "2026-10-10T08:28:05.884Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,38 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 11,
+  "total": 10,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Cultura e Turismo",
+      "tipo": "Resolução",
+      "numero": "60",
+      "ano": "2026",
+      "rotulo": "Resolução SECULT nº 60, de 09 de Outubro de 2026",
+      "ementa": "Dispõe sobre a designação da Comissão Permanente de Avaliação de Documentos de Arquivo – CPAD da Secretaria de Estado de Cultura e Turismo - SECULT",
+      "data": "2026-10-10",
+      "data_assinatura": "2026-10-09",
+      "pagina": 6,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-10",
+      "visto_em": "2026-10-10"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Resolução Conjunta",
+      "numero": "3.431",
+      "ano": "2026",
+      "rotulo": "Resolução Conjunta SEMAD/IGAM nº 3.431, de 08 de Outubro de 2026",
+      "ementa": "Altera a Resolução Conjunta SEMAD/IGAM nº 2.895, de 22 de novembro de 2019, que designa membros para compor o Núcleo Estadual de Gestão do Programa Água Doce, instituído pelo Decreto nº 46.192, de 21 de março de 2013, e dá outras providências",
+      "data": "2026-10-10",
+      "data_assinatura": "2026-10-08",
+      "pagina": 10,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-10",
+      "visto_em": "2026-10-10"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
@@ -128,51 +158,6 @@
       "pagina": 16,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-07",
       "visto_em": "2026-10-07"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Governo do Estado",
-      "tipo": "Decreto",
-      "numero": "49.294",
-      "ano": "2026",
-      "rotulo": "Decreto nº 49.294, de 5 de Outubro de 2026",
-      "ementa": "Remaneja valores de DAD-unitário da Secretaria de Estado de Desenvolvimento Econômico para a Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável e dá outras providências",
-      "data": "2026-10-06",
-      "data_assinatura": "2026-10-05",
-      "pagina": 1,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-06",
-      "visto_em": "2026-10-06"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Deliberação",
-      "numero": "40",
-      "ano": "2026",
-      "rotulo": "Deliberação ARTEMIG nº 40, de 25 de Setembro de 2026",
-      "ementa": "Dispõe sobre o reajuste ordinário dos tetos das tarifas aeroportuárias de embarque, conexão, pouso, permanência, armazenagem e capatazia, domésticas e internacionais, do Aeroporto Presidente Itamar Franco - Regional da Zona da Mata (SBZM), localizado no Município de Goianá, no Estado de Minas Gerais",
-      "data": "2026-10-06",
-      "data_assinatura": "2026-09-25",
-      "pagina": 9,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-06",
-      "visto_em": "2026-10-06"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Deliberação",
-      "numero": "41",
-      "ano": "2026",
-      "rotulo": "Deliberação ARTEMIG nº 41, de 25 de Setembro de 2026",
-      "ementa": "A Diretoria Colegiada da Agência Reguladora de Transportes do Estado de Minas Gerais (ARTEMIG), no uso de suas atribuições que lhe confere a Lei nº 25.235, de 8 de maio de 2025, fundamentada no documento “Relatório e Voto nº 009/2026 - (149924054)”, e no que consta no Processo SEI nº 2471. 01.000101",
-      "data": "2026-10-06",
-      "data_assinatura": "2026-09-25",
-      "pagina": 10,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-06",
-      "visto_em": "2026-10-06"
     }
   ]
 }
