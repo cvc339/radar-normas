@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T10:34:09.813Z",
+  "gerado_em": "2026-10-11T08:46:16.177Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 10,
+  "total": 6,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -98,66 +98,6 @@
       "pagina": 8,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-09",
       "visto_em": "2026-10-09"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Governo do Estado",
-      "tipo": "Decreto",
-      "numero": "49.295",
-      "ano": "2026",
-      "rotulo": "Decreto nº 49.295, de 6 de Outubro de 2026",
-      "ementa": "Altera o quantitativo e a distribuição de cargos de provimento em comissão e funções gratificadas no âmbito do Instituto Estadual do Patrimônio Histórico e Artístico de Minas Gerais",
-      "data": "2026-10-07",
-      "data_assinatura": "2026-10-06",
-      "pagina": 1,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-07",
-      "visto_em": "2026-10-07"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "4291",
-      "ano": "2026",
-      "rotulo": "Portaria nº 4291, de 6 de Outubro de 2026",
-      "ementa": "Constitui Comissão Específica de Reavaliação de Materiais Permanentes no âmbito do Departamento de Estradas de Rodagem do Estado de Minas Gerais – DER-MG",
-      "data": "2026-10-07",
-      "data_assinatura": "2026-10-06",
-      "pagina": 8,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-07",
-      "visto_em": "2026-10-07"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "12",
-      "ano": "2026",
-      "rotulo": "Portaria ARTEMIG nº 12, de 06 de Outubro de 2026",
-      "ementa": "Dispõe sobre os critérios e procedimentos para composição das Comissões de Avaliação de Desempenho e da Comissão de Recursos do processo de Avaliação de Desempenho Individual da Agência Reguladora de Transportes do Estado de Minas Gerais – Artemig.",
-      "data": "2026-10-07",
-      "data_assinatura": "2026-10-06",
-      "pagina": 8,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-07",
-      "visto_em": "2026-10-07"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "82",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 82, de 06 de Outubro de 2026",
-      "ementa": "PROCESSO DISCIPLINAR SIMPLIFICADO (PDS).",
-      "data": "2026-10-07",
-      "data_assinatura": "2026-10-06",
-      "pagina": 16,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-07",
-      "visto_em": "2026-10-07"
     }
   ]
 }
