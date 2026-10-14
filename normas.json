@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-13T11:41:36.843Z",
+  "gerado_em": "2026-10-14T07:34:04.217Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,37 +7,6 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 2,
-  "itens": [
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Cultura e Turismo",
-      "tipo": "Resolução",
-      "numero": "60",
-      "ano": "2026",
-      "rotulo": "Resolução SECULT nº 60, de 09 de Outubro de 2026",
-      "ementa": "Dispõe sobre a designação da Comissão Permanente de Avaliação de Documentos de Arquivo – CPAD da Secretaria de Estado de Cultura e Turismo - SECULT",
-      "data": "2026-10-10",
-      "data_assinatura": "2026-10-09",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-10",
-      "visto_em": "2026-10-10"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Resolução Conjunta",
-      "numero": "3.431",
-      "ano": "2026",
-      "rotulo": "Resolução Conjunta SEMAD/IGAM nº 3.431, de 08 de Outubro de 2026",
-      "ementa": "Altera a Resolução Conjunta SEMAD/IGAM nº 2.895, de 22 de novembro de 2019, que designa membros para compor o Núcleo Estadual de Gestão do Programa Água Doce, instituído pelo Decreto nº 46.192, de 21 de março de 2013, e dá outras providências",
-      "data": "2026-10-10",
-      "data_assinatura": "2026-10-08",
-      "pagina": 10,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-10",
-      "visto_em": "2026-10-10"
-    }
-  ]
+  "total": 0,
+  "itens": []
 }
