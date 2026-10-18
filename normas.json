@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T08:31:08.482Z",
+  "gerado_em": "2026-10-18T07:12:49.201Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 11,
+  "total": 10,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -85,6 +85,19 @@
       "visto_em": "2026-10-17"
     },
     {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração",
+      "tipo": "Resolução",
+      "numero": null,
+      "ano": "2026",
+      "rotulo": "Resolução (Ministério de Minas e Energia/Agência Nacional de Mineração)",
+      "ementa": "Institui a Política de Gestão da Integridade da Agência Nacional de Mineração - ANM, dispondo sobre suas diretrizes, seus instrumentos, papéis, responsabilidades e mecanismos de governança, monitoramento, avaliação, comunicação e aperfeiçoamento.",
+      "data": "2026-10-16",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/10/2026&jornal=515&pagina=110",
+      "visto_em": "2026-10-18"
+    },
+    {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
       "orgao": "Secretaria de Estado de Cultura e Turismo",
@@ -128,36 +141,6 @@
       "pagina": 6,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-15",
       "visto_em": "2026-10-15"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Governo do Estado",
-      "tipo": "Decreto",
-      "numero": "49.297",
-      "ano": "2026",
-      "rotulo": "Decreto nº 49.297, de 13 de Outubro de 2026",
-      "ementa": "Altera o Decreto nº 49.294, de 5 de outubro de 2026, que remaneja valores de DAD-unitário da Secretaria de Estado de Desenvolvimento Econômico para a Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável e dá outras providências",
-      "data": "2026-10-14",
-      "data_assinatura": "2026-10-13",
-      "pagina": 1,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-14",
-      "visto_em": "2026-10-14"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "2486",
-      "ano": "2026",
-      "rotulo": "Portaria IMA nº 2486, de 13 de Outubro de 2026",
-      "ementa": "Faz designação de servidor no âmbito do IMA.",
-      "data": "2026-10-14",
-      "data_assinatura": "2026-10-13",
-      "pagina": 8,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-14",
-      "visto_em": "2026-10-14"
     },
     {
       "origem": "ACAM",
