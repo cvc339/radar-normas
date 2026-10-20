@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-19T09:49:51.516Z",
+  "gerado_em": "2026-10-20T07:29:32.281Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 7,
+  "total": 6,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -96,19 +96,6 @@
       "data": "2026-10-16",
       "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/10/2026&jornal=515&pagina=110",
       "visto_em": "2026-10-18"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração/Diretoria Colegiada",
-      "tipo": "Resolução",
-      "numero": null,
-      "ano": "2026",
-      "rotulo": "Resolução (Ministério de Minas e Energia/Agência Nacional de Mineração/Diretoria Colegiada)",
-      "ementa": "Institui a Política de Gestão de Processos da Agência Nacional de Mineração.",
-      "data": "2026-10-14",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=14/10/2026&jornal=515&pagina=50",
-      "visto_em": "2026-10-16"
     }
   ]
 }
