@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-20T07:29:32.281Z",
+  "gerado_em": "2026-10-20T08:44:00.909Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,53 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 6,
+  "total": 9,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+      "tipo": "Resolução",
+      "numero": "29/2026",
+      "ano": "2026",
+      "rotulo": "Resolução SEAPA nº 29/2026, de 07 de Outubro de 2026",
+      "ementa": "PROCESSO SEI! N° 1230. 01.0006837/2020-66 Cria Comissão de Credenciamento, com atribuições previstas no disposto no artigo 16 do Decreto nº 48.076, de 5 de novembro de 2020.",
+      "data": "2026-10-20",
+      "data_assinatura": "2026-10-07",
+      "pagina": 3,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-20",
+      "visto_em": "2026-10-20"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Cultura e Turismo",
+      "tipo": "Portaria",
+      "numero": "23",
+      "ano": "2026",
+      "rotulo": "Portaria nº 23, de 20 de Agosto de 2026",
+      "ementa": "Altera a composição da Comissão Permanente de Avaliação de Documentos de Arquivo – CPAD da Fundação Clóvis Salgado, instituída pela Portaria 24/2023",
+      "data": "2026-10-20",
+      "data_assinatura": "2026-08-20",
+      "pagina": 3,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-20",
+      "visto_em": "2026-10-20"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
+      "tipo": "Resolução",
+      "numero": "57/2026",
+      "ano": "2026",
+      "rotulo": "Resolução SEINFRA nº 57/2026, de 19 de Outubro de 2026",
+      "ementa": "Declara de utilidade pública as áreas necessárias às intervenções em vegetação secundária em estágio médio de regeneração do Bioma Mata Atlântica, vinculadas à implantação do Projeto de Melhoramento e Pavimentação da Rodovia MG-040, trecho: Brumadinho-Bonfim, incluindo Obras de Arte Especiais (OAEs), iniciativa OBR-00000043, advinda do Acordo Judicial para Reparação Integral (AJRI).",
+      "data": "2026-10-20",
+      "data_assinatura": "2026-10-19",
+      "pagina": 5,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-20",
+      "visto_em": "2026-10-20"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
