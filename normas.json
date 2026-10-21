@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-21T07:34:07.242Z",
+  "gerado_em": "2026-10-21T08:44:57.201Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,38 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 5,
+  "total": 7,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+      "tipo": "Portaria",
+      "numero": "10/2026",
+      "ano": "2026",
+      "rotulo": "Portaria SEAPA nº 10/2026",
+      "ementa": "Prorroga a Portaria Seapa n. 08/2026 – Instauração de Processo Administrativo Disciplinar O Secretário de Estado de Agricultura, Pecuária e Abastecimento, no uso das atribuições que lhe confere o § 1º o Art. 93 da Constituição do Estado de Minas Gerais e o Art. 219 da Lei Estadual n. 869, de 5 de julho de 1952 e, tendo em vista os motivos apresentados pela Sra.",
+      "data": "2026-10-21",
+      "data_assinatura": null,
+      "pagina": 5,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-21",
+      "visto_em": "2026-10-21"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Deliberação",
+      "numero": "2.199",
+      "ano": "2026",
+      "rotulo": "Deliberação COPAM nº 2.199, de 20 de Outubro de 2026",
+      "ementa": "Altera a Deliberação Copam nº 1.792, de 30 de maio de 2023, que estabelece a composição e designação dos membros da Unidade Regional Colegiada Leste Mineiro do Conselho Estadual de Política Ambiental, para o mandato 2023-2025 prorrogado pela Deliberação Copam n° 2.054, de 17 de junho de 2025",
+      "data": "2026-10-21",
+      "data_assinatura": "2026-10-20",
+      "pagina": 35,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-21",
+      "visto_em": "2026-10-21"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
