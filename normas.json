@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-20T09:23:05.774Z",
+  "gerado_em": "2026-10-21T07:34:07.242Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 9,
+  "total": 5,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -55,79 +55,17 @@
       "visto_em": "2026-10-20"
     },
     {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Resolução",
-      "numero": "28",
-      "ano": "2026",
-      "rotulo": "Resolução SEAPA nº 28, de 14 de Outubro de 2026",
-      "ementa": "PROCESSO SEI N° 1230. 01.0003291/2026-51 Designa representantes do Grupo Executivo Permanente para implementação de estratégias de apoio ao sistema agrícola tradicional dos apanhadores de flores sempre-vivas (GEP SEMPRE VIVAS), para o biênio 2026-2028.",
-      "data": "2026-10-17",
-      "data_assinatura": "2026-10-14",
-      "pagina": 5,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-17",
-      "visto_em": "2026-10-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Resolução",
-      "numero": "53",
-      "ano": "2026",
-      "rotulo": "Resolução SEINFRA nº 53, de 29 de Setembro de 2026",
-      "ementa": "Institui, no âmbito da Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias - SEINFRA, o Grupo Técnico de Integração da Mobilidade Metropolitana da Região Metropolitana de Belo Horizonte – GT Integração Mobilidade RMBH referente ao Acordo de Cooperação Técnica 03/2026 (144763937).",
-      "data": "2026-10-17",
-      "data_assinatura": "2026-09-29",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-17",
-      "visto_em": "2026-10-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
       "tipo": "Portaria",
-      "numero": "4298",
+      "numero": null,
       "ano": "2026",
-      "rotulo": "Portaria nº 4298, de 16 de Outubro de 2026",
-      "ementa": "Torna sem efeito o desenvolvimento funcional que especifica e concede promoções por escolaridade adicional em cumprimento a decisão judicial a servidor integrante da carreira do Grupo de Atividades de Transportes e Obras Públicas do Poder Executivo de que trata a Lei nº 15.469, de 13 de janeiro de 2005.",
-      "data": "2026-10-17",
-      "data_assinatura": "2026-10-16",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-17",
-      "visto_em": "2026-10-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Deliberação",
-      "numero": "42",
-      "ano": "2026",
-      "rotulo": "Deliberação ARTEMIG nº 42, de 15 de Outubro de 2026",
-      "ementa": "A Diretoria Colegiada da Agência Reguladora de Transportes do Estado de Minas Gerais (ARTEMIG), no uso de suas atribuições que lhe confere a Lei nº 25.235, de 8 de maio de 2025, fundamentada no documento \"Relatório e Voto nº 010/2026 (150946458)\", e no que consta no Processo SEI nº 2471. 01.0001012/2026-16, DELIBERA por: Art. 1º - Aprovar a 3ª Revisão Anual do Contrato de Concessão nº 003/2022 (55940456), firmado com a Concessionária EPR Triângulo S.",
-      "data": "2026-10-17",
-      "data_assinatura": "2026-10-15",
-      "pagina": 7,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-17",
-      "visto_em": "2026-10-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "83",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 83, de 16 de Outubro de 2026",
-      "ementa": "A DIRETORA-GERAL DO INSTITUTO ESTADUAL DE FLORESTAS-IEF",
-      "data": "2026-10-17",
-      "data_assinatura": "2026-10-16",
-      "pagina": 9,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-17",
-      "visto_em": "2026-10-17"
+      "rotulo": "Portaria (Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis)",
+      "ementa": "Altera os Anexos I e II da Portaria nº 73, de 26 de maio de 2025, que aprova o Regimento Interno do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis.",
+      "data": "2026-10-19",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=19/10/2026&jornal=515&pagina=151",
+      "visto_em": "2026-10-21"
     },
     {
       "origem": "ACAM",
