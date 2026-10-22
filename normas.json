@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-22T07:32:32.854Z",
+  "gerado_em": "2026-10-22T08:47:18.578Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,38 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 5,
+  "total": 7,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Resolução Conjunta",
+      "numero": "3.433",
+      "ano": "2026",
+      "rotulo": "Resolução Conjunta SEMAD/IEF nº 3.433, de 14 de Outubro de 2026",
+      "ementa": "Estabelece a transição do Sistema de Controle de Atividades Florestais – CAF/SIAM para o módulo Controle de Carvão Vegetal – CCV do sistema MG Florestas e revoga a Resolução Conjunta SEMAD/IEF Nº 2.248, de 30 de dezembro de 2014 e a Resolução Conjunta SEMAD/ IEF Nº 2.691, de 14 de setembro de 2018",
+      "data": "2026-10-22",
+      "data_assinatura": "2026-10-14",
+      "pagina": 5,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-22",
+      "visto_em": "2026-10-22"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Portaria",
+      "numero": "84",
+      "ano": "2026",
+      "rotulo": "Portaria IEF nº 84, de 21 de Outubro de 2026",
+      "ementa": "Estabelece diretrizes para o controle do transporte,armazenamento, consumo e uso de carvão vegetalde espécies exóticas no Estado de Minas Gerais.",
+      "data": "2026-10-22",
+      "data_assinatura": "2026-10-21",
+      "pagina": 6,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-22",
+      "visto_em": "2026-10-22"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
