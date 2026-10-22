@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-21T09:19:37.963Z",
+  "gerado_em": "2026-10-22T07:32:32.854Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 7,
+  "total": 5,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -83,32 +83,6 @@
       "pagina": 5,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-20",
       "visto_em": "2026-10-20"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
-      "tipo": "Portaria",
-      "numero": null,
-      "ano": "2026",
-      "rotulo": "Portaria (Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis)",
-      "ementa": "Altera os Anexos I e II da Portaria nº 73, de 26 de maio de 2025, que aprova o Regimento Interno do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis.",
-      "data": "2026-10-19",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=19/10/2026&jornal=515&pagina=151",
-      "visto_em": "2026-10-21"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério de Minas e Energia/Agência Nacional de Mineração",
-      "tipo": "Resolução",
-      "numero": null,
-      "ano": "2026",
-      "rotulo": "Resolução (Ministério de Minas e Energia/Agência Nacional de Mineração)",
-      "ementa": "Institui a Política de Gestão da Integridade da Agência Nacional de Mineração - ANM, dispondo sobre suas diretrizes, seus instrumentos, papéis, responsabilidades e mecanismos de governança, monitoramento, avaliação, comunicação e aperfeiçoamento.",
-      "data": "2026-10-16",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=16/10/2026&jornal=515&pagina=110",
-      "visto_em": "2026-10-18"
     }
   ]
 }
