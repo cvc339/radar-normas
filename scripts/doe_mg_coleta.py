@@ -35,8 +35,10 @@ import datetime as dt
 import json
 import os
 import re
+import ssl
 import sys
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -91,6 +93,34 @@ def sem_acento(s):
     return unicodedata.normalize("NFD", s).encode("ascii", "ignore").decode().lower()
 
 
+# Cadeia de certificados incompleta. Em 22/10/2026 o Jornal Minas Gerais trocou o certificado
+# (emissor Sectigo DV R36) e passou a enviar o intermediário errado. O Windows completa a cadeia
+# sozinho; o OpenSSL do runner Linux não, e o Executivo deixou de ser lido (perdeu-se o Decreto
+# 49.298/2026). Na falha de validação, baixa o intermediário indicado no próprio certificado (AIA)
+# e tenta de novo. A raiz continua sendo a do repositório do sistema; nada deixa de ser validado.
+_CTX = ssl.create_default_context()
+_CADEIA_COMPLETADA = set()
+
+
+def _completar_cadeia(host):
+    sem_validar = ssl.create_default_context()
+    sem_validar.check_hostname = False
+    sem_validar.verify_mode = ssl.CERT_NONE
+    with socket.create_connection((host, 443), timeout=30) as s:
+        with sem_validar.wrap_socket(s, server_hostname=host) as t:
+            folha = t.getpeercert(binary_form=True)
+    # URI no DER: etiqueta 0x86 (uniformResourceIdentifier), um byte de comprimento, o texto.
+    # Ficam só os de certificado (caIssuers); OCSP e lista de revogação não interessam.
+    urls = [folha[m.end():m.end() + m.group(1)[0]]
+            for m in re.finditer(rb"\x86([\x08-\x7f])(?=http://)", folha)]
+    urls = [u for u in urls if u.lower().endswith((b".crt", b".cer", b".der"))]
+    for u in urls:
+        with urllib.request.urlopen(u.decode(), timeout=30) as r:
+            _CTX.load_verify_locations(cadata=ssl.DER_cert_to_PEM_cert(r.read()))
+    print(f"  {host}: cadeia de certificados completada pelo AIA ({len(urls)} intermediário)", file=sys.stderr)
+    return bool(urls)
+
+
 def http_json(path, params=None, method="GET", body=None, token=None, timeout=120):
     url = API + path + ("?" + urllib.parse.urlencode(params) if params else "")
     h = {"User-Agent": UA, "Accept": "application/json", "Content-Type": "application/json"}
@@ -98,8 +128,19 @@ def http_json(path, params=None, method="GET", body=None, token=None, timeout=12
         h["Authorization"] = "Bearer " + token
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(url, data=data, headers=h, method=method)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return json.loads(r.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=timeout, context=_CTX) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except urllib.error.URLError as e:
+        host = urllib.parse.urlsplit(url).hostname
+        if not isinstance(e.reason, ssl.SSLCertVerificationError) or host in _CADEIA_COMPLETADA:
+            raise
+        _CADEIA_COMPLETADA.add(host)
+        if not _completar_cadeia(host):
+            raise
+        req = urllib.request.Request(url, data=data, headers=h, method=method)
+        with urllib.request.urlopen(req, timeout=timeout, context=_CTX) as r:
+            return json.loads(r.read().decode("utf-8"))
 
 
 class _RedirecionamentoVisivel(urllib.request.HTTPRedirectHandler):
