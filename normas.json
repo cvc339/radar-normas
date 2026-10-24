@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-23T09:17:16.586Z",
+  "gerado_em": "2026-10-24T00:05:51.389Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,6 +7,110 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 0,
-  "itens": []
+  "total": 7,
+  "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Governo do Estado",
+      "tipo": "Decreto",
+      "numero": "49.298",
+      "ano": "2026",
+      "rotulo": "Decreto nº 49.298, de 22 de Outubro de 2026",
+      "ementa": "Estabelece regras de transição para aplicação da Lei Federal nº 15.190, de 8 de agosto de 2025, altera o Decreto nº 47.383, de 2 de março de 2018, e dá outras providências",
+      "data": "2026-10-23",
+      "data_assinatura": "2026-10-22",
+      "pagina": 1,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-23",
+      "visto_em": "2026-10-24"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
+      "tipo": "Portaria",
+      "numero": "07",
+      "ano": "2026",
+      "rotulo": "Portaria nº 07, de 20 de Outubro de 2026",
+      "ementa": "Designa agente de contratação, de pregoeiro, bem como para compor a comissão de contratação, em caráter permanente, nas licitações da Agência de Desenvolvimento da Região Metropolitana de Belo Horizonte - AGÊNCIA RMBH e revoga a Portaria nº 13, de 30 de setembro de 2025.",
+      "data": "2026-10-23",
+      "data_assinatura": "2026-10-20",
+      "pagina": 9,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-23",
+      "visto_em": "2026-10-24"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Resolução Conjunta",
+      "numero": "3.433",
+      "ano": "2026",
+      "rotulo": "Resolução Conjunta SEMAD/IEF nº 3.433, de 14 de Outubro de 2026",
+      "ementa": "Estabelece a transição do Sistema de Controle de Atividades Florestais – CAF/SIAM para o módulo Controle de Carvão Vegetal – CCV do sistema MG Florestas e revoga a Resolução Conjunta SEMAD/IEF Nº 2.248, de 30 de dezembro de 2014 e a Resolução Conjunta SEMAD/ IEF Nº 2.691, de 14 de setembro de 2018",
+      "data": "2026-10-22",
+      "data_assinatura": "2026-10-14",
+      "pagina": 5,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-22",
+      "visto_em": "2026-10-22"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Portaria",
+      "numero": "84",
+      "ano": "2026",
+      "rotulo": "Portaria IEF nº 84, de 21 de Outubro de 2026",
+      "ementa": "Estabelece diretrizes para o controle do transporte,armazenamento, consumo e uso de carvão vegetalde espécies exóticas no Estado de Minas Gerais.",
+      "data": "2026-10-22",
+      "data_assinatura": "2026-10-21",
+      "pagina": 6,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-22",
+      "visto_em": "2026-10-22"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+      "tipo": "Portaria",
+      "numero": "10/2026",
+      "ano": "2026",
+      "rotulo": "Portaria SEAPA nº 10/2026",
+      "ementa": "Prorroga a Portaria Seapa n. 08/2026 – Instauração de Processo Administrativo Disciplinar O Secretário de Estado de Agricultura, Pecuária e Abastecimento, no uso das atribuições que lhe confere o § 1º o Art. 93 da Constituição do Estado de Minas Gerais e o Art. 219 da Lei Estadual n. 869, de 5 de julho de 1952 e, tendo em vista os motivos apresentados pela Sra.",
+      "data": "2026-10-21",
+      "data_assinatura": null,
+      "pagina": 5,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-21",
+      "visto_em": "2026-10-21"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
+      "tipo": "Deliberação",
+      "numero": "2.199",
+      "ano": "2026",
+      "rotulo": "Deliberação COPAM nº 2.199, de 20 de Outubro de 2026",
+      "ementa": "Altera a Deliberação Copam nº 1.792, de 30 de maio de 2023, que estabelece a composição e designação dos membros da Unidade Regional Colegiada Leste Mineiro do Conselho Estadual de Política Ambiental, para o mandato 2023-2025 prorrogado pela Deliberação Copam n° 2.054, de 17 de junho de 2025",
+      "data": "2026-10-21",
+      "data_assinatura": "2026-10-20",
+      "pagina": 35,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-21",
+      "visto_em": "2026-10-21"
+    },
+    {
+      "origem": "ACAM",
+      "fonte": "DOU",
+      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
+      "tipo": "Portaria",
+      "numero": null,
+      "ano": "2026",
+      "rotulo": "Portaria (Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis)",
+      "ementa": "Altera os Anexos I e II da Portaria nº 73, de 26 de maio de 2025, que aprova o Regimento Interno do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis.",
+      "data": "2026-10-19",
+      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=19/10/2026&jornal=515&pagina=151",
+      "visto_em": "2026-10-21"
+    }
+  ]
 }
