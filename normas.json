@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T08:50:34.674Z",
+  "gerado_em": "2026-10-25T07:34:01.721Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 14,
+  "total": 11,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -173,49 +173,6 @@
       "pagina": 6,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-22",
       "visto_em": "2026-10-22"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "10/2026",
-      "ano": "2026",
-      "rotulo": "Portaria SEAPA nº 10/2026",
-      "ementa": "Prorroga a Portaria Seapa n. 08/2026 – Instauração de Processo Administrativo Disciplinar O Secretário de Estado de Agricultura, Pecuária e Abastecimento, no uso das atribuições que lhe confere o § 1º o Art. 93 da Constituição do Estado de Minas Gerais e o Art. 219 da Lei Estadual n. 869, de 5 de julho de 1952 e, tendo em vista os motivos apresentados pela Sra.",
-      "data": "2026-10-21",
-      "data_assinatura": null,
-      "pagina": 5,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-21",
-      "visto_em": "2026-10-21"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Deliberação",
-      "numero": "2.199",
-      "ano": "2026",
-      "rotulo": "Deliberação COPAM nº 2.199, de 20 de Outubro de 2026",
-      "ementa": "Altera a Deliberação Copam nº 1.792, de 30 de maio de 2023, que estabelece a composição e designação dos membros da Unidade Regional Colegiada Leste Mineiro do Conselho Estadual de Política Ambiental, para o mandato 2023-2025 prorrogado pela Deliberação Copam n° 2.054, de 17 de junho de 2025",
-      "data": "2026-10-21",
-      "data_assinatura": "2026-10-20",
-      "pagina": 35,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-21",
-      "visto_em": "2026-10-21"
-    },
-    {
-      "origem": "ACAM",
-      "fonte": "DOU",
-      "orgao": "Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis",
-      "tipo": "Portaria",
-      "numero": null,
-      "ano": "2026",
-      "rotulo": "Portaria (Ministério do Meio Ambiente e Mudança do Clima/Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis)",
-      "ementa": "Altera os Anexos I e II da Portaria nº 73, de 26 de maio de 2025, que aprova o Regimento Interno do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis.",
-      "data": "2026-10-19",
-      "url": "http://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=19/10/2026&jornal=515&pagina=151",
-      "visto_em": "2026-10-21"
     }
   ]
 }
