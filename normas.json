@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-30T10:50:02.649Z",
+  "gerado_em": "2026-10-31T08:23:37.709Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 29,
+  "total": 22,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -338,111 +338,6 @@
       "pagina": 26,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-28",
       "visto_em": "2026-10-28"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "013/2026",
-      "ano": "2026",
-      "rotulo": "Portaria SEAPA nº 013/2026",
-      "ementa": "RECONDUÇÃO DE COMISSÃO DE PROCESSO ADMINISTRATIVO PUNITIVO 1230. 01.0004157/2026-46 - 1230. 01.0000014/2025-69 O Subsecretário de Agricultura Familiar e Desenvolvimento Rural Sustentável e ordenador de despesa, Julian Silva Carvalho, conforme Resolução SEAPA nº. 24/2026, de 29 de julho de 2026, publ",
-      "data": "2026-10-27",
-      "data_assinatura": null,
-      "pagina": 4,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-27",
-      "visto_em": "2026-10-27"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "012/2026",
-      "ano": "2026",
-      "rotulo": "Portaria SEAPA nº 012/2026",
-      "ementa": "RECONDUÇÃO DE COMISSÃO DE PROCESSO ADMINISTRATIVO PUNITIVO 1230. 01.0004168/2026-40 -1230. 01.0000014/2025-69 O Subsecretário de Agricultura Familiar e Desenvolvimento Rural Sustentável e ordenador de despesa, Julian Silva Carvalho, conforme Resolução SEAPA nº. 24/2026, de 29 de julho de 2026, publi",
-      "data": "2026-10-27",
-      "data_assinatura": null,
-      "pagina": 4,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-27",
-      "visto_em": "2026-10-27"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "011/2026",
-      "ano": "2026",
-      "rotulo": "Portaria SEAPA nº 011/2026",
-      "ementa": "INSTAURA PROCESSO ADMINISTRATIVO PUNITIVO 1230. 01.0004217/2026-75 - 1230. 01.0000014/2025-69 O Subsecretário de Agricultura Familiar e Desenvolvimento Rural Sustentável e ordenador de despesa, Julian Silva Carvalho, conforme Resolução O SEAPA nº. 24/2026, de 29 de julho de 2026, publicada no Diário",
-      "data": "2026-10-27",
-      "data_assinatura": null,
-      "pagina": 4,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-27",
-      "visto_em": "2026-10-27"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Cultura e Turismo",
-      "tipo": "Resolução",
-      "numero": "60",
-      "ano": "2026",
-      "rotulo": "Resolução SECULT nº 60, de 26 de Outubro de 2026",
-      "ementa": "Institui Grupo de Trabalho para adoção das providências preparatórias à implementação da metodologia de priorização da análise de prestações de contas, no âmbito da Secretaria de Estado de Cultura e Turismo de Minas Gerais – SECULT/MG",
-      "data": "2026-10-27",
-      "data_assinatura": "2026-10-26",
-      "pagina": 4,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-27",
-      "visto_em": "2026-10-27"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "4295",
-      "ano": "2026",
-      "rotulo": "Portaria nº 4295, de 26 de Outubro de 2026",
-      "ementa": "Altera a Portaria nº 4.218, de 25 de setembro de 2025, que dispõe sobre a delegação de competência de ordenador de despesas e a indicação de responsáveis técnicos para atuação junto ao Sistema Integrado de Administração Financeira de Minas Gerais – SIAFI-MG",
-      "data": "2026-10-27",
-      "data_assinatura": "2026-10-26",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-27",
-      "visto_em": "2026-10-27"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "4297",
-      "ano": "2026",
-      "rotulo": "Portaria nº 4297, de 26 de Outubro de 2026",
-      "ementa": "Constitui Comissão Permanente de Avaliação de Documentos de Arquivo – CPAD no âmbito do Departamento de Estradas de Rodagem do Estado de Minas Gerais – DER-MG",
-      "data": "2026-10-27",
-      "data_assinatura": "2026-10-26",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-27",
-      "visto_em": "2026-10-27"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "4303",
-      "ano": "2026",
-      "rotulo": "Portaria nº 4303, de 26 de Outubro de 2026",
-      "ementa": "Institui Comissões de Avaliação de Desempenho e Comissão de Recursos no âmbito do Departamento de Estradas de Rodagem do Estado de Minas Gerais",
-      "data": "2026-10-27",
-      "data_assinatura": "2026-10-26",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-27",
-      "visto_em": "2026-10-27"
     }
   ]
 }
