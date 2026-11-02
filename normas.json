@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-01T11:13:49.394Z",
+  "gerado_em": "2026-11-02T09:25:55.703Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 13,
+  "total": 12,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -188,21 +188,6 @@
       "pagina": 1,
       "url": "https://diariolegislativo.almg.gov.br/2026/L20261030.pdf",
       "visto_em": "2026-10-30"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "72",
-      "ano": "2026",
-      "rotulo": "Portaria nº 72, de 20 de Outubro de 2026",
-      "ementa": "Designa membros para a Comissão de Apreciação de Recursos – CAR, no âmbito da Agência de Desenvolvimento da Região Metropolitana do Vale do Aço",
-      "data": "2026-10-29",
-      "data_assinatura": "2026-10-20",
-      "pagina": 9,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-10-29",
-      "visto_em": "2026-10-29"
     }
   ]
 }
