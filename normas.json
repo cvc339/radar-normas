@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-07T11:00:35.677Z",
+  "gerado_em": "2026-11-08T08:58:03.276Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 27,
+  "total": 21,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -323,96 +323,6 @@
       "pagina": 9,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-05",
       "visto_em": "2026-11-05"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Governo do Estado",
-      "tipo": "Decreto",
-      "numero": "49.309",
-      "ano": "2026",
-      "rotulo": "Decreto nº 49.309, de 3 de Novembro de 2026",
-      "ementa": "Altera o quantitativo e a distribuição de cargos de provimento em comissão no âmbito da Secretaria de Estado de Governo",
-      "data": "2026-11-04",
-      "data_assinatura": "2026-11-03",
-      "pagina": 1,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-04",
-      "visto_em": "2026-11-04"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "2489",
-      "ano": "2026",
-      "rotulo": "Portaria IMA nº 2489, de 4 de Novembro de 2026",
-      "ementa": "Institui Grupo de Trabalho para elaborar o Plano de Gerenciamento de Resíduos do Instituto Mineiro de Agropecuária.",
-      "data": "2026-11-04",
-      "data_assinatura": "2026-11-04",
-      "pagina": 5,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-04",
-      "visto_em": "2026-11-04"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "4301",
-      "ano": "2026",
-      "rotulo": "Portaria nº 4301, de 3 de Novembro de 2026",
-      "ementa": "Designa membros do Comitê Interno do Regime de Teletrabalho no âmbito do Departamento de Estradas de Rodagem do Estado de Minas Gerais",
-      "data": "2026-11-04",
-      "data_assinatura": "2026-11-03",
-      "pagina": 9,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-04",
-      "visto_em": "2026-11-04"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Deliberação",
-      "numero": "01",
-      "ano": "2026",
-      "rotulo": "Deliberação nº 01, de 03 de Novembro de 2026",
-      "ementa": "Aprova o Regimento Interno da Comissão de Ética da Agência Reguladora de Transportes do Estado de Minas Gerais – ARTEMIG.",
-      "data": "2026-11-04",
-      "data_assinatura": "2026-11-03",
-      "pagina": 9,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-04",
-      "visto_em": "2026-11-04"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "18",
-      "ano": "2026",
-      "rotulo": "Portaria IGAM nº 18, de 03 de Novembro de 2026",
-      "ementa": "Convoca os empreendimentos e atividades que especifica para formalização de processo de outorga de lançamento de efluentes, e dá outras providências",
-      "data": "2026-11-04",
-      "data_assinatura": "2026-11-03",
-      "pagina": 16,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-04",
-      "visto_em": "2026-11-04"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Legislativo",
-      "orgao": "Assembleia Legislativa (Diário do Legislativo)",
-      "tipo": "Lei",
-      "numero": "25.974",
-      "ano": "2026",
-      "rotulo": "Lei nº 25.974, de 15 de Julho de 2026",
-      "ementa": "Dispõe sobre a defesa sanitária animal no Estado e dá outras providências.",
-      "data": "2026-11-04",
-      "data_assinatura": "2026-07-15",
-      "pagina": 1,
-      "url": "https://diariolegislativo.almg.gov.br/2026/L20261104.pdf",
-      "visto_em": "2026-11-04"
     }
   ]
 }
