@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-09T12:45:58.882Z",
+  "gerado_em": "2026-11-10T09:44:14.341Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,38 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 18,
+  "total": 15,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
+      "tipo": "Resolução",
+      "numero": "30",
+      "ano": "2026",
+      "rotulo": "Resolução SEAPA nº 30, de 06 de Novembro de 2026",
+      "ementa": "PROCESSO SEI! N° 1230.01.0001211/2026-48 Designa os membros titulares e suplentes do Conselho Estadual de Política Agrícola – CEPA.",
+      "data": "2026-11-10",
+      "data_assinatura": "2026-11-06",
+      "pagina": 3,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-10",
+      "visto_em": "2026-11-10"
+    },
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Executivo",
+      "orgao": "Secretaria de Estado de Cultura e Turismo",
+      "tipo": "Resolução",
+      "numero": "64",
+      "ano": "2026",
+      "rotulo": "Resolução SECULT nº 64, de 09 de Novembro de 2026",
+      "ementa": "Altera a Resolução SECULT nº 66, de 11 de novembro de 2023 para modificação de dispositivos, nos termos que se especifica",
+      "data": "2026-11-10",
+      "data_assinatura": "2026-11-09",
+      "pagina": 4,
+      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-10",
+      "visto_em": "2026-11-10"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
@@ -203,81 +233,6 @@
       "pagina": 8,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-07",
       "visto_em": "2026-11-07"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Resolução",
-      "numero": "62/2026",
-      "ano": "2026",
-      "rotulo": "Resolução SEINFRA nº 62/2026, de 05 de Novembro de 2026",
-      "ementa": "Altera o parágrafo único do art. 6º da Resolução SEINFRA nº 02, de 20 de janeiro de 2026",
-      "data": "2026-11-06",
-      "data_assinatura": "2026-11-05",
-      "pagina": 8,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-06",
-      "visto_em": "2026-11-06"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Resolução Conjunta",
-      "numero": "3.436",
-      "ano": "2026",
-      "rotulo": "Resolução Conjunta SEMAD/FEAM nº 3.436, de 3 de Novembro de 2026",
-      "ementa": "Constitui comissões encarregadas de promover os inventários financeiros dos valores em tesouraria e das obrigações constantes dos grupos Passivo Circulante e não Circulante, no âmbito da Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável e do Fundo de Recuperação, Proteção e Desenvo",
-      "data": "2026-11-06",
-      "data_assinatura": "2026-11-03",
-      "pagina": 11,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-06",
-      "visto_em": "2026-11-06"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "89",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 89, de 05 de Novembro de 2026",
-      "ementa": "Constitui Comissão Julgadora do Edital nº 05/2026 de seleção pública para celebração de Contrato de Gestão com o Instituto Estadual de Florestas para co-execução de ações de apoio à regularização ambiental de imóveis rurais, restauração ambiental de passivos ambientais e implementação de mecanismos aplicáveis de Pagamento por Serviços Ambientais, no âmbito do Polo Mariana da Bacia do Rio Doce.",
-      "data": "2026-11-06",
-      "data_assinatura": "2026-11-05",
-      "pagina": 12,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-06",
-      "visto_em": "2026-11-06"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Legislativo",
-      "orgao": "Assembleia Legislativa (Diário do Legislativo)",
-      "tipo": "Resolução",
-      "numero": "5.671",
-      "ano": "2026",
-      "rotulo": "Resolução nº 5.671, de 5 de Novembro de 2026",
-      "ementa": "Aprova as contas do Tribunal de Contas do Estado referentes ao exercício de 2021.",
-      "data": "2026-11-06",
-      "data_assinatura": "2026-11-05",
-      "pagina": 1,
-      "url": "https://diariolegislativo.almg.gov.br/2026/L20261106.pdf",
-      "visto_em": "2026-11-06"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Legislativo",
-      "orgao": "Assembleia Legislativa (Diário do Legislativo)",
-      "tipo": "Resolução",
-      "numero": "5.672",
-      "ano": "2026",
-      "rotulo": "Resolução nº 5.672, de 5 de Novembro de 2026",
-      "ementa": "Aprova as contas do Tribunal de Contas do Estado referentes ao exercício de 2022.",
-      "data": "2026-11-06",
-      "data_assinatura": "2026-11-05",
-      "pagina": 1,
-      "url": "https://diariolegislativo.almg.gov.br/2026/L20261106.pdf",
-      "visto_em": "2026-11-06"
     }
   ]
 }
