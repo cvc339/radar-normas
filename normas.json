@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-13T12:07:11.557Z",
+  "gerado_em": "2026-11-14T08:56:50.942Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,8 +7,23 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 7,
+  "total": 6,
   "itens": [
+    {
+      "origem": "DOE-MG",
+      "fonte": "DOE-Legislativo",
+      "orgao": "Assembleia Legislativa (Diário do Legislativo)",
+      "tipo": "Lei",
+      "numero": "26.065",
+      "ano": "2026",
+      "rotulo": "Lei nº 26.065, de 13 de Novembro de 2026",
+      "ementa": "Declara de utilidade pública a Associação Comunitária Cultural de Artes e Ofícios de Brasília de Minas – Artebram –, com sede no Município de Brasília de Minas",
+      "data": "2026-11-14",
+      "data_assinatura": "2026-11-13",
+      "pagina": 1,
+      "url": "https://diariolegislativo.almg.gov.br/2026/L20261114.pdf",
+      "visto_em": "2026-11-14"
+    },
     {
       "origem": "DOE-MG",
       "fonte": "DOE-Executivo",
@@ -83,36 +98,6 @@
       "pagina": 15,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-13",
       "visto_em": "2026-11-13"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Resolução",
-      "numero": "30",
-      "ano": "2026",
-      "rotulo": "Resolução SEAPA nº 30, de 06 de Novembro de 2026",
-      "ementa": "PROCESSO SEI! N° 1230.01.0001211/2026-48 Designa os membros titulares e suplentes do Conselho Estadual de Política Agrícola – CEPA.",
-      "data": "2026-11-10",
-      "data_assinatura": "2026-11-06",
-      "pagina": 3,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-10",
-      "visto_em": "2026-11-10"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Cultura e Turismo",
-      "tipo": "Resolução",
-      "numero": "64",
-      "ano": "2026",
-      "rotulo": "Resolução SECULT nº 64, de 09 de Novembro de 2026",
-      "ementa": "Altera a Resolução SECULT nº 66, de 11 de novembro de 2023 para modificação de dispositivos, nos termos que se especifica",
-      "data": "2026-11-10",
-      "data_assinatura": "2026-11-09",
-      "pagina": 4,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-10",
-      "visto_em": "2026-11-10"
     }
   ]
 }
