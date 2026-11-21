@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-20T12:46:18.166Z",
+  "gerado_em": "2026-11-21T09:43:48.324Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 26,
+  "total": 19,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -293,111 +293,6 @@
       "pagina": 15,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-18",
       "visto_em": "2026-11-18"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Cultura e Turismo",
-      "tipo": "Portaria",
-      "numero": "25",
-      "ano": "2026",
-      "rotulo": "Portaria nº 25, de 16 de Novembro de 2026",
-      "ementa": "Dispõe sobre o encerramento do exercício financeiro de 2026 no âmbito da Fundação Clóvis Salgado, institui Comissão Especial para Inventário de Ativos Permanentes, contendo os bens patrimoniais em uso, estocados, cedidos e recebidos em cessão, inclusive imóveis, e determina outras providencias",
-      "data": "2026-11-17",
-      "data_assinatura": "2026-11-16",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-17",
-      "visto_em": "2026-11-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Cultura e Turismo",
-      "tipo": "Portaria",
-      "numero": "24",
-      "ano": "2026",
-      "rotulo": "Portaria nº 24, de 16 de Novembro de 2026",
-      "ementa": "Dispõe sobre o encerramento do exercício financeiro de 2026 no âmbito da Fundação Clóvis Salgado, institui Comissão Especial para Inventário do Almoxarifado e determina outras providencias",
-      "data": "2026-11-17",
-      "data_assinatura": "2026-11-16",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-17",
-      "visto_em": "2026-11-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Cultura e Turismo",
-      "tipo": "Portaria",
-      "numero": "26",
-      "ano": "2026",
-      "rotulo": "Portaria nº 26, de 16 de Novembro de 2026",
-      "ementa": "Dispõe sobre o encerramento do exercício financeiro de 2026 no âmbito da Fundação Clóvis Salgado, institui Comissão Especial para levantamento das informações financeiras, contendo os valores em espécie em caixa e documentos conversíveis em disponibilidade, as obrigações constantes dos grupos Passiv",
-      "data": "2026-11-17",
-      "data_assinatura": "2026-11-16",
-      "pagina": 6,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-17",
-      "visto_em": "2026-11-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "013/2026",
-      "ano": "2026",
-      "rotulo": "Portaria ARTEMIG nº 013/2026, de 16 de Novembro de 2026",
-      "ementa": "Dispõe sobre a delegação de competência para a prática de atos relativos ao Registro de Preços, no âmbito da unidade 2471006, da Agência Reguladora deTransportes do Estado de Minas Gerais – ARTEMIG.",
-      "data": "2026-11-17",
-      "data_assinatura": "2026-11-16",
-      "pagina": 7,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-17",
-      "visto_em": "2026-11-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "92",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 92, de 16 de Novembro de 2026",
-      "ementa": "A DIRETORA GERAL DO INSTITUTO ESTADUAL DE FLORESTAS-IEF, no uso das atribuições que lhe são conferidas pelo art. 219 da Lei 869/1952 e arts. 13 e 14 do Decreto nº 47.892/2020, e tendo em vista os motivos apresentados pela Sra.",
-      "data": "2026-11-17",
-      "data_assinatura": "2026-11-16",
-      "pagina": 11,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-17",
-      "visto_em": "2026-11-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "93",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 93, de 16 de Novembro de 2026",
-      "ementa": "A DIRETORA GERAL DO INSTITUTO ESTADUAL DE FLORESTAS-IEF, no uso das atribuições que lhe são conferidas pelo art. 219 da Lei 869/1952 e arts. 13 e 14 do Decreto nº 47.892/2020, e tendo em vista os motivos apresentados pela Sra.",
-      "data": "2026-11-17",
-      "data_assinatura": "2026-11-16",
-      "pagina": 11,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-17",
-      "visto_em": "2026-11-17"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "94",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 94, de 16 de Novembro de 2026",
-      "ementa": "Dispõe sobre a recondução do Conselho Consultivo do Parque Estadual do Sumidouro, do Monumento Natural Estadual Lapa Vermelha e do Monumento Natural Estadual Várzea da Lapa, instituído pela Portaria nº 76, de 03 de dezembro de 2024",
-      "data": "2026-11-17",
-      "data_assinatura": "2026-11-16",
-      "pagina": 11,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-17",
-      "visto_em": "2026-11-17"
     }
   ]
 }
