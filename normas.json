@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-21T12:32:38.229Z",
+  "gerado_em": "2026-11-22T09:43:14.237Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 19,
+  "total": 15,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -233,66 +233,6 @@
       "pagina": 15,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-19",
       "visto_em": "2026-11-19"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Resolução Conjunta",
-      "numero": "01",
-      "ano": "2026",
-      "rotulo": "Resolução Conjunta IMA/PMMG nº 01, de 17 de Novembro de 2026",
-      "ementa": "Designa servidores para atuarem como ordenadores de despesa e responsáveis técnicos junto ao Sistema Integrado de Administraçã o Financeira de Minas Gerais - SIAFI/MG, relativo ao Termo de Descentralizaçã o de Crédito Orçamentário - TDCO nº 01/2026 celebrado entre o Instituto Mineiro de Agropecuária - IMA e a Polícia Militar do Estado de Minas Gerais (PMMG).",
-      "data": "2026-11-18",
-      "data_assinatura": "2026-11-17",
-      "pagina": 11,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-18",
-      "visto_em": "2026-11-18"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "4306",
-      "ano": "2026",
-      "rotulo": "Portaria nº 4306, de 16 de Novembro de 2026",
-      "ementa": "Constitui Comissões para promover os inventários físicos e financeiros do Departamento de Estradas de Rodagem do Estado de Minas Gerais – DER-MG e do Fundo Estadual de Transportes – FUNTRANS, relativos ao encerramento do exercício financeiro de 2026",
-      "data": "2026-11-18",
-      "data_assinatura": "2026-11-16",
-      "pagina": 14,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-18",
-      "visto_em": "2026-11-18"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "75",
-      "ano": "2026",
-      "rotulo": "Portaria nº 75, de 16 de Novembro de 2026",
-      "ementa": "Designa servidor para a função de Assessor Jurídica no âmbito da Agência de Desenvolvimento da Região Metropolitana do Vale do Aço",
-      "data": "2026-11-18",
-      "data_assinatura": "2026-11-16",
-      "pagina": 15,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-18",
-      "visto_em": "2026-11-18"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "71",
-      "ano": "2026",
-      "rotulo": "Portaria nº 71, de 17 de Novembro de 2026",
-      "ementa": "Constitui Comissões Especiais para cumprimento das diretrizes decorrentes do encerramento de exercício 2026 no âmbito da Agência de Desenvolvimento da região Metropolitana do vale do Aço",
-      "data": "2026-11-18",
-      "data_assinatura": "2026-11-17",
-      "pagina": 15,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-18",
-      "visto_em": "2026-11-18"
     }
   ]
 }
