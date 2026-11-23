@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T12:29:49.564Z",
+  "gerado_em": "2026-11-23T10:42:18.238Z",
   "janela_dias": 30,
   "janela_visivel_dias": 3,
   "fontes": [
@@ -7,7 +7,7 @@
     "DOE-Legislativo",
     "DOU"
   ],
-  "total": 15,
+  "total": 11,
   "itens": [
     {
       "origem": "DOE-MG",
@@ -173,66 +173,6 @@
       "pagina": 18,
       "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-20",
       "visto_em": "2026-11-20"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Agricultura, Pecuária e Abastecimento",
-      "tipo": "Portaria",
-      "numero": "14/2026",
-      "ano": "2026",
-      "rotulo": "Portaria SEAPA nº 14/2026",
-      "ementa": "RECONDUÇÃO DA COMISSÃO DE PROCESSO ADMINISTRATIVO DISCIPLINAR O Secretário de Estado de Agricultura, Pecuária e Abastecimento, no uso das atribuições que lhe confere o § 1º o Art. 93 da Constituição do Estado de Minas Gerais e o Art. 219 da Lei Estadual n. 869, de 5 de julho de 1952 e, tendo em vista os motivos apresentados pela Sra.",
-      "data": "2026-11-19",
-      "data_assinatura": null,
-      "pagina": 5,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-19",
-      "visto_em": "2026-11-19"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Cultura e Turismo",
-      "tipo": "Resolução",
-      "numero": "65",
-      "ano": "2026",
-      "rotulo": "Resolução SECULT nº 65, de 18 de Novembro de 2026",
-      "ementa": "Constitui as comissões de levantamento dos inventários físicos e financeiros dos valores em espécie em caixa e documentos conversíveis em disponibilidade, das obrigações constantes dos grupos Passivo Circulante e Não Circulante e Restos a Pagar não Processados, das contas de controle representativas",
-      "data": "2026-11-19",
-      "data_assinatura": "2026-11-18",
-      "pagina": 5,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-19",
-      "visto_em": "2026-11-19"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Infraestrutura, Mobilidade e Parcerias",
-      "tipo": "Portaria",
-      "numero": "09/2026",
-      "ano": "2026",
-      "rotulo": "Portaria nº 09/2026",
-      "ementa": "Dispõe sobre a instituição das Comissões de Inventários para a execução do encerramento do exercício financeiro de 2026, no âmbito da Agência de Desenvolvimento da Região Metropolitana de Belo Horizonte - Agência RMBH.",
-      "data": "2026-11-19",
-      "data_assinatura": null,
-      "pagina": 10,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-19",
-      "visto_em": "2026-11-19"
-    },
-    {
-      "origem": "DOE-MG",
-      "fonte": "DOE-Executivo",
-      "orgao": "Secretaria de Estado de Meio Ambiente e Desenvolvimento Sustentável",
-      "tipo": "Portaria",
-      "numero": "96",
-      "ano": "2026",
-      "rotulo": "Portaria IEF nº 96, de 18 de Novembro de 2026",
-      "ementa": "Institui comissões especiais para realização dos inventários físicos e financeiros relacionados ao encerramento do exercício financeiro de 2026, no âmbito do Instituto Estadual de Florestas – IEF.",
-      "data": "2026-11-19",
-      "data_assinatura": "2026-11-18",
-      "pagina": 15,
-      "url": "https://www.jornalminasgerais.mg.gov.br/?dataJornal=2026-11-19",
-      "visto_em": "2026-11-19"
     }
   ]
 }
